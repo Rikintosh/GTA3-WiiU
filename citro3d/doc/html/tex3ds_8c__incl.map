@@ -1,0 +1,20 @@
+<map id="source/tex3ds.c" name="source/tex3ds.c">
+<area shape="rect" id="node2" href="$tex3ds_8h.html" title="tex3ds support " alt="" coords="753,80,825,107"/>
+<area shape="rect" id="node3" href="$citro3d_8h.html" title="citro3d.h" alt="" coords="660,155,732,181"/>
+<area shape="rect" id="node4" href="$types_8h.html" title="c3d/types.h" alt="" coords="692,453,783,480"/>
+<area shape="rect" id="node6" href="$maths_8h.html" title="c3d/maths.h" alt="" coords="343,304,438,331"/>
+<area shape="rect" id="node9" href="$mtxstack_8h.html" title="c3d/mtxstack.h" alt="" coords="200,229,312,256"/>
+<area shape="rect" id="node10" href="$uniforms_8h.html" title="c3d/uniforms.h" alt="" coords="337,229,445,256"/>
+<area shape="rect" id="node11" href="$attribs_8h.html" title="c3d/attribs.h" alt="" coords="801,379,895,405"/>
+<area shape="rect" id="node12" href="$buffers_8h.html" title="c3d/buffers.h" alt="" coords="661,304,760,331"/>
+<area shape="rect" id="node13" href="$base_8h.html" title="c3d/base.h" alt="" coords="521,229,607,256"/>
+<area shape="rect" id="node14" href="$texenv_8h.html" title="c3d/texenv.h" alt="" coords="919,379,1017,405"/>
+<area shape="rect" id="node15" href="$effect_8h.html" title="c3d/effect.h" alt="" coords="936,304,1027,331"/>
+<area shape="rect" id="node16" href="$texture_8h.html" title="c3d/texture.h" alt="" coords="1092,379,1191,405"/>
+<area shape="rect" id="node17" href="$proctex_8h.html" title="c3d/proctex.h" alt="" coords="573,379,675,405"/>
+<area shape="rect" id="node18" href="$light_8h.html" title="c3d/light.h" alt="" coords="93,229,176,256"/>
+<area shape="rect" id="node19" href="$lightlut_8h.html" title="lightlut.h" alt="" coords="111,304,182,331"/>
+<area shape="rect" id="node20" href="$fog_8h.html" title="c3d/fog.h" alt="" coords="498,304,574,331"/>
+<area shape="rect" id="node21" href="$framebuffer_8h.html" title="c3d/framebuffer.h" alt="" coords="1103,304,1227,331"/>
+<area shape="rect" id="node22" href="$renderqueue_8h.html" title="c3d/renderqueue.h" alt="" coords="1101,229,1230,256"/>
+</map>

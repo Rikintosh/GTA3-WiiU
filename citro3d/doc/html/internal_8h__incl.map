@@ -1,0 +1,13 @@
+<map id="source/internal.h" name="source/internal.h">
+<area shape="rect" id="node2" href="$attribs_8h.html" title="c3d/attribs.h" alt="" coords="215,155,309,181"/>
+<area shape="rect" id="node5" href="$buffers_8h.html" title="c3d/buffers.h" alt="" coords="127,80,226,107"/>
+<area shape="rect" id="node6" href="$proctex_8h.html" title="c3d/proctex.h" alt="" coords="450,80,551,107"/>
+<area shape="rect" id="node7" href="$light_8h.html" title="c3d/light.h" alt="" coords="626,80,709,107"/>
+<area shape="rect" id="node12" href="$framebuffer_8h.html" title="c3d/framebuffer.h" alt="" coords="301,80,425,107"/>
+<area shape="rect" id="node14" href="$texenv_8h.html" title="c3d/texenv.h" alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node15" href="$fog_8h.html" title="c3d/fog.h" alt="" coords="483,155,559,181"/>
+<area shape="rect" id="node3" href="$types_8h.html" title="types.h" alt="" coords="375,229,440,256"/>
+<area shape="rect" id="node8" href="$lightlut_8h.html" title="lightlut.h" alt="" coords="583,155,653,181"/>
+<area shape="rect" id="node10" href="$maths_8h.html" title="maths.h" alt="" coords="678,155,747,181"/>
+<area shape="rect" id="node13" href="$texture_8h.html" title="texture.h" alt="" coords="333,155,407,181"/>
+</map>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['scale',['scale',['../structC3D__LightLutInputConf.html#a85e3702b932905745d7dbdb83aff6b14',1,'C3D_LightLutInputConf::scale()'],['../structC3D__LightLutDA.html#ab34dfcd37817d6c5a543b252220d0f86',1,'C3D_LightLutDA::scale()']]],
+  ['scalealpha',['scaleAlpha',['../structC3D__TexEnv.html#a9cdcd981635065af1f4c6ec02cc6cece',1,'C3D_TexEnv']]],
+  ['scalergb',['scaleRgb',['../structC3D__TexEnv.html#a253272a962ae17ce42ea1ae49091ee7e',1,'C3D_TexEnv']]],
+  ['scissor',['scissor',['../structC3D__Context.html#a76d6b562e06dcacc7a063ad504dbdb03',1,'C3D_Context']]],
+  ['screen',['screen',['../structC3D__RenderTarget__tag.html#a06f836125c1f863c4fb82ea24730f92f',1,'C3D_RenderTarget_tag']]],
+  ['select',['select',['../structC3D__LightLutInputConf.html#a3ca6d65e4e83af17278c8aa15956c7a4',1,'C3D_LightLutInputConf']]],
+  ['side',['side',['../structC3D__RenderTarget__tag.html#ab07fe4744bc9e0979713d1c272d8d60c',1,'C3D_RenderTarget_tag']]],
+  ['size',['size',['../structC3D__Tex.html#a38d59ac8b6459ac7d45f2935c2e32d94',1,'C3D_Tex']]],
+  ['specular0',['specular0',['../structC3D__Material.html#aa90d9d50bdded7a7064dfe28a2c7e999',1,'C3D_Material::specular0()'],['../structC3D__LightMatConf.html#a2a9b084537969d376cc33ea04e94ab05',1,'C3D_LightMatConf::specular0()'],['../structC3D__Light__t.html#a0e36fc159d6884dc14ef6f503d56870f',1,'C3D_Light_t::specular0()']]],
+  ['specular1',['specular1',['../structC3D__Material.html#aedd024f175243a36afc9947eb223f613',1,'C3D_Material::specular1()'],['../structC3D__LightMatConf.html#a7cb40df319a49a94bb5cfbc5b9fb8acf',1,'C3D_LightMatConf::specular1()'],['../structC3D__Light__t.html#abff63a56c52bc3f1d0136a5f3606fe16',1,'C3D_Light_t::specular1()']]],
+  ['spot_5fstep',['spot_step',['../lightlut_8h.html#a23e15d5e598f96cf7143f01f14ba0291',1,'lightlut.h']]],
+  ['spotdir',['spotDir',['../structC3D__LightConf.html#a69d7c80693ffb722d0f7b6961f02c246',1,'C3D_LightConf']]],
+  ['srcalpha',['srcAlpha',['../structC3D__TexEnv.html#af8418bbd9434834486faa06968a04bd8',1,'C3D_TexEnv']]],
+  ['srcrgb',['srcRgb',['../structC3D__TexEnv.html#ad472f7d3e1c2dc6d4fe77384b9be80cf',1,'C3D_TexEnv']]],
+  ['stencilmode',['stencilMode',['../structC3D__Effect.html#a08957dc606bdc427a03110fc742f7e03',1,'C3D_Effect']]],
+  ['stencilop',['stencilOp',['../structC3D__Effect.html#a4f827ebca96ef5fb306f8be9895edf42',1,'C3D_Effect']]],
+  ['subtextures',['subTextures',['../structTex3DS__Texture__s.html#ab6231d69bb35e6725ad94727780cd326',1,'Tex3DS_Texture_s']]]
+];

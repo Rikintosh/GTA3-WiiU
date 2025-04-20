@@ -1,0 +1,20 @@
+<map id="source/internal.h" name="source/internal.h">
+<area shape="rect" id="node2" href="$attribs_8c.html" title="source/attribs.c" alt="" coords="5,80,117,107"/>
+<area shape="rect" id="node3" href="$base_8c.html" title="source/base.c" alt="" coords="141,80,245,107"/>
+<area shape="rect" id="node4" href="$buffers_8c.html" title="source/buffers.c" alt="" coords="270,80,386,107"/>
+<area shape="rect" id="node5" href="$drawArrays_8c.html" title="source/drawArrays.c" alt="" coords="410,80,553,107"/>
+<area shape="rect" id="node6" href="$drawElements_8c.html" title="source/drawElements.c" alt="" coords="577,80,735,107"/>
+<area shape="rect" id="node7" href="$effect_8c.html" title="source/effect.c" alt="" coords="760,80,869,107"/>
+<area shape="rect" id="node8" href="$fog_8c.html" title="source/fog.c" alt="" coords="894,80,989,107"/>
+<area shape="rect" id="node9" href="$framebuffer_8c.html" title="source/framebuffer.c" alt="" coords="1013,80,1155,107"/>
+<area shape="rect" id="node10" href="$gas_8c.html" title="source/gas.c" alt="" coords="1179,80,1277,107"/>
+<area shape="rect" id="node11" href="$immediate_8c.html" title="source/immediate.c" alt="" coords="1301,80,1437,107"/>
+<area shape="rect" id="node12" href="$light_8c.html" title="source/light.c" alt="" coords="1462,80,1562,107"/>
+<area shape="rect" id="node13" href="$lightenv_8c.html" title="source/lightenv.c" alt="" coords="1586,80,1707,107"/>
+<area shape="rect" id="node14" href="$lightlut_8c.html" title="source/lightlut.c" alt="" coords="1732,80,1847,107"/>
+<area shape="rect" id="node15" href="$proctex_8c.html" title="source/proctex.c" alt="" coords="1871,80,1990,107"/>
+<area shape="rect" id="node16" href="$renderqueue_8c.html" title="source/renderqueue.c" alt="" coords="2015,80,2161,107"/>
+<area shape="rect" id="node17" href="$texenv_8c.html" title="source/texenv.c" alt="" coords="2185,80,2300,107"/>
+<area shape="rect" id="node18" href="$texture_8c.html" title="source/texture.c" alt="" coords="2325,80,2441,107"/>
+<area shape="rect" id="node19" href="$uniforms_8c.html" title="source/uniforms.c" alt="" coords="2465,80,2591,107"/>
+</map>

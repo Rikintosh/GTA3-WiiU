@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['fb',['fb',['../structC3D__Context.html#afeed36b52b807cd8ac248bb47e413741',1,'C3D_Context']]],
+  ['firsttarget',['firstTarget',['../renderqueue_8c.html#a253b2ef64336cfa7ae937b6c234a3df2',1,'renderqueue.c']]],
+  ['fixedattribdirty',['fixedAttribDirty',['../structC3D__Context.html#a2cfe54bfacc99795619bd9da5d0a7261',1,'C3D_Context']]],
+  ['fixedattribeverdirty',['fixedAttribEverDirty',['../structC3D__Context.html#a60b3908ed58b4fb9cd30f224ccefed21',1,'C3D_Context']]],
+  ['fixedattribs',['fixedAttribs',['../structC3D__Context.html#a00e1248e912c6ef20a6d735944738666',1,'C3D_Context']]],
+  ['flags',['flags',['../structC3D__AttrInfo.html#a6fa88c4bfb371d25bcf756a3f7009bcb',1,'C3D_AttrInfo::flags()'],['../structC3D__BufCfg.html#aa96daa453e117d9074e997b5cbe27e62',1,'C3D_BufCfg::flags()'],['../structC3D__LightEnv__t.html#a11e802fb21bdffd151263a5890be94cd',1,'C3D_LightEnv_t::flags()'],['../structC3D__Light__t.html#adc7111541d9bc103d54e6b2525f79d87',1,'C3D_Light_t::flags()'],['../structC3D__Context.html#a060c9eda900637b676805b72e16ad4ee',1,'C3D_Context::flags()']]],
+  ['fmt',['fmt',['../structC3D__Tex.html#a52d8085012bf0ba1b022265f14932603',1,'C3D_Tex']]],
+  ['fogclr',['fogClr',['../structC3D__Context.html#ab9dccee59972678fdd8ce310af36f0ce',1,'C3D_Context']]],
+  ['foglut',['fogLut',['../structC3D__Context.html#acf3487a3d99b3a98dd0127655f50ddc4',1,'C3D_Context']]],
+  ['format',['format',['../structTex3DS__Texture__s.html#afac34719d1647ca2d59e19c7c89313c5',1,'Tex3DS_Texture_s']]],
+  ['fragopmode',['fragOpMode',['../structC3D__Effect.html#aa41fca9c92e899a85ae90dd678c84045',1,'C3D_Effect']]],
+  ['fragopshadow',['fragOpShadow',['../structC3D__Effect.html#ae30d30e5ecd3a38b0d2efc304e41e307',1,'C3D_Effect']]],
+  ['framebuf',['frameBuf',['../structC3D__RenderTarget__tag.html#afc00d5e2788e036ca9af3353875169e4',1,'C3D_RenderTarget_tag']]],
+  ['framecounter',['frameCounter',['../renderqueue_8c.html#afc4e0450d2af56c10d724e079d98c6d7',1,'renderqueue.c']]],
+  ['frameendcb',['frameEndCb',['../renderqueue_8c.html#a71a45ae25f444af924381e1bb99f17d5',1,'renderqueue.c']]],
+  ['frameendcbdata',['frameEndCbData',['../renderqueue_8c.html#a9372d68b2eef0e621979db3ead0f4d1a',1,'renderqueue.c']]],
+  ['framerate',['framerate',['../renderqueue_8c.html#a47405eaa7254aa41bf5f50afe5cf6a03',1,'renderqueue.c']]],
+  ['frameratecounter',['framerateCounter',['../renderqueue_8c.html#af564e80eb3134421f48451bdfe6b687e',1,'renderqueue.c']]],
+  ['funcalpha',['funcAlpha',['../structC3D__TexEnv.html#a4f83f12214b611601a76bb487cfe0758',1,'C3D_TexEnv']]],
+  ['funcrgb',['funcRgb',['../structC3D__TexEnv.html#a9196dd6df696bd71883fec3b1c6406cd',1,'C3D_TexEnv']]]
+];

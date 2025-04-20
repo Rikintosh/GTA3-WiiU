@@ -1,0 +1,2388 @@
+         w __deregister_frame_info
+         w __gnu_Unwind_Find_exidx
+         w __register_frame_info
+         w userAppExit
+         w userAppInit
+00000000 00000001 b g_gdbHioWasInterruptedByCtrlC
+00000000 b .LANCHOR0
+00000000 a shift
+00000000 a shift
+00000000 b _TLS_MODULE_BASE_
+00000004 00000401 B __ctru_dev_path_buf
+00000408 00000802 B __ctru_dev_utf16_buf
+00100000 A __start__
+00100000 T _start
+00100008 T __service_ptr
+0010000c T __apt_appid
+00100010 T __heap_size
+00100014 T __linear_heap_size
+00100018 T __system_arglist
+0010001c T __system_runflags
+00100020 t startup
+00100058 t ClearMem
+0010006c t ClrLoop
+00100094 T _init
+001000ac T __aeabi_uidiv
+001000ac 000001ec T __udivsi3
+001000ac t .udivsi3_skip_div0_test
+00100298 00000020 T __aeabi_uidivmod
+001002b8 T __aeabi_idiv
+001002b8 00000220 T __divsi3
+001002c0 t .divsi3_skip_div0_test
+001004d8 00000020 T __aeabi_idivmod
+001004f8 00000004 W __aeabi_idiv0
+001004f8 00000004 W __aeabi_ldiv0
+001004fc T __aeabi_drsub
+00100504 000002b0 T __aeabi_dsub
+00100504 000002b0 T __subdf3
+00100508 000002ac T __adddf3
+00100508 000002ac T __aeabi_dadd
+001007b4 00000024 T __aeabi_ui2d
+001007b4 00000024 T __floatunsidf
+001007d8 00000028 T __aeabi_i2d
+001007d8 00000028 T __floatsidf
+00100800 00000048 T __aeabi_f2d
+00100800 00000048 T __extendsfdf2
+00100848 00000074 T __aeabi_ul2d
+00100848 00000074 T __floatundidf
+0010085c 00000060 T __aeabi_l2d
+0010085c 00000060 T __floatdidf
+001008bc T __aeabi_ldivmod
+00100990 T __aeabi_uldivmod
+001009cc 00000014 T __restore_core_regs
+001009cc 00000014 T restore_core_regs
+001009e0 T __gnu_Unwind_Restore_VFP
+001009e8 T __gnu_Unwind_Save_VFP
+001009f0 T __gnu_Unwind_Restore_VFP_D
+001009f8 T __gnu_Unwind_Save_VFP_D
+00100a00 T __gnu_Unwind_Restore_VFP_D_16_to_31
+00100a08 T __gnu_Unwind_Save_VFP_D_16_to_31
+00100a10 T __gnu_Unwind_Restore_WMMXD
+00100a54 T __gnu_Unwind_Save_WMMXD
+00100a98 T __gnu_Unwind_Restore_WMMXC
+00100aac T __gnu_Unwind_Save_WMMXC
+00100ac0 00000024 T ___Unwind_RaiseException
+00100ac0 00000024 T _Unwind_RaiseException
+00100ae4 00000024 T ___Unwind_Resume
+00100ae4 00000024 T _Unwind_Resume
+00100b08 00000024 T ___Unwind_Resume_or_Rethrow
+00100b08 00000024 T _Unwind_Resume_or_Rethrow
+00100b2c 00000024 T ___Unwind_ForcedUnwind
+00100b2c 00000024 T _Unwind_ForcedUnwind
+00100b50 00000024 T ___Unwind_Backtrace
+00100b50 00000024 T _Unwind_Backtrace
+00100b88 00000390 T strcmp
+00100f10 t __do_global_dtors_aux
+00100f50 t frame_dummy
+00100f7c 00000004 T rw::null::beginUpdate(rw::Camera*)
+00100f80 00000004 T rw::null::clearCamera(rw::Camera*, rw::RGBA*, unsigned long)
+00100f84 00000004 T rw::null::showRaster(rw::Raster*, unsigned long)
+00100f88 00000004 T rw::null::setRenderState(long, void*)
+00100f8c 00000008 T rw::null::getRenderState(long)
+00100f94 00000008 T rw::null::rasterRenderFast(rw::Raster*, long, long)
+00100f9c 00000004 T rw::null::im2DRenderLine(void*, long, long, long)
+00100fa0 00000004 T rw::null::im2DRenderTriangle(void*, long, long, long, long)
+00100fa4 00000004 T rw::null::im2DRenderPrimitive(rw::PrimitiveType, void*, long)
+00100fa8 00000004 T rw::null::im2DRenderIndexedPrimitive(rw::PrimitiveType, void*, long, void*, long)
+00100fac 00000004 T rw::null::im3DTransform(void*, long, rw::Matrix*, unsigned long)
+00100fb0 00000004 T rw::null::im3DRenderPrimitive(rw::PrimitiveType)
+00100fb4 00000004 T rw::null::im3DEnd()
+00100fb8 00000024 T rw::null::deviceSystem(rw::DeviceReq, void*, long)
+00100fdc 0000000c T rw::malloc_h(unsigned int, unsigned long)
+00100fe8 00000078 T rw::malloc_managed(unsigned int, unsigned long)
+00101060 00000004 T rw::realloc_h(void*, unsigned int, unsigned long)
+00101064 000000c8 T rw::realloc_managed(void*, unsigned int, unsigned long)
+0010112c 00000024 T rw::null::rasterCreate(rw::Raster*)
+00101150 00000028 T rw::null::rasterLock(rw::Raster*, long, long)
+00101178 00000028 T rw::null::rasterUnlock(rw::Raster*, long)
+001011a0 00000024 T rw::null::rasterLockPalette(rw::Raster*, long)
+001011c4 00000028 T rw::null::rasterUnlockPalette(rw::Raster*)
+001011ec 00000028 T rw::null::rasterNumLevels(rw::Raster*)
+00101214 00000028 T rw::null::imageFindRasterFormat(rw::Image*, long, long*, long*, long*, long*)
+0010123c 00000024 T rw::null::rasterFromImage(rw::Raster*, rw::Image*)
+00101260 00000028 T rw::null::rasterToImage(rw::Raster*)
+00101288 0000002c t rw::mustmalloc_h(unsigned int, unsigned long) [clone .part.0]
+00101288 0000002c t rw::mustrealloc_h(void*, unsigned int, unsigned long) [clone .part.0]
+001012b4 00000034 T rw::mustmalloc_h(unsigned int, unsigned long)
+001012e8 00000034 T rw::mustrealloc_h(void*, unsigned int, unsigned long)
+0010131c 00000034 T rw::free_managed(void*)
+00101350 00000004 T rw::null::im3DRenderIndexedPrimitive(rw::PrimitiveType, void*, long)
+00101354 00000004 T rw::null::endUpdate(rw::Camera*)
+00101358 00000058 T rw::strdup_LOC(char const*, unsigned long, char const*)
+001013b0 0000020c T rw::Engine::init(rw::MemoryFunctions*)
+001015bc 000001d0 T rw::Engine::open(rw::EngineOpenParams*)
+0010178c 00000160 T rw::Engine::start()
+001018ec 000000ac T rw::Engine::term()
+00101998 000000f8 T rw::Engine::close()
+00101a90 000000f0 T rw::Engine::stop()
+00101b80 00000020 T rw::Engine::getNumSubSystems()
+00101ba0 00000020 T rw::Engine::setSubSystem(long)
+00101bc0 00000038 T rw::Engine::getSubSystemInfo(rw::SubSystemInfo*, long)
+00101bf8 00000020 T rw::Engine::getNumVideoModes()
+00101c18 00000020 T rw::Engine::getCurrentVideoMode()
+00101c38 00000038 T rw::Engine::getVideoModeInfo(rw::VideoMode*, long)
+00101c70 00000024 t _GLOBAL__sub_I__ZN2rw6engineE
+00101c94 00000030 t rw::imageOpen(void*, long, long)
+00101cc4 00000084 t rw::imageClose(void*, long, long)
+00101d48 00000088 t rw::makeTreeAddr(rw::RGBA)
+00101dd0 00000104 T rw::Image::create(long, long, long)
+00101ed4 000000c4 T rw::Image::allocate()
+00101f98 00000060 T rw::Image::free()
+00101ff8 00000038 T rw::Image::destroy()
+00102030 000002a4 T rw::decompressDXT1(unsigned char*, long, long, unsigned char*)
+001022d4 000002a0 T rw::decompressDXT3(unsigned char*, long, long, unsigned char*)
+00102574 00000424 T rw::decompressDXT5(unsigned char*, long, long, unsigned char*)
+00102998 00000040 T rw::Image::setPixelsDXT(long, unsigned char*)
+001029d8 00000078 T rw::Image::compressPalette()
+00102a50 00000174 T rw::Image::hasAlpha()
+00102bc4 000001fc T rw::Image::unpalettize(bool)
+00102dc0 000001e8 T rw::Image::convertTo32()
+00102fa8 000000f8 t rw::Image::applyMask(rw::Image*) [clone .part.0]
+001030a0 000001ac T rw::Image::makeMask()
+0010324c 00000138 T rw::Image::removeMask()
+00103384 0000018c T rw::Image::upscale(int)
+00103510 000000b0 T rw::Image::setSearchPath(char const*)
+001035c0 0000021c T rw::Image::getFilename(char const*)
+001037dc 00000134 T rw::Image::read(char const*)
+00103910 00000080 T rw::Image::registerFileFormat(char const*, rw::Image* (*)(char const*), void (*)(rw::Image*, char const*))
+00103990 00000044 T rw::Image::registerModule()
+001039d4 00000054 T rw::ColorQuant::Node::destroy()
+00103a28 000000f0 t rw::ColorQuant::reduceNode(rw::ColorQuant::Node*) [clone .part.0]
+00103b18 000000a4 T rw::ColorQuant::createNode(long)
+00103bbc 00000260 T rw::ColorQuant::addImage(rw::Image*)
+00103e1c 0000013c T rw::ColorQuant::makePalette(long, rw::RGBA*)
+00103f58 000001d8 T rw::ColorQuant::matchImage(unsigned char*, unsigned long, rw::Image*)
+00104130 00000124 T rw::Image::palettize(long)
+00104254 000000dc T rw::Image::readMasked(char const*, char const*)
+00104330 00000014 T rw::SetRenderState(long, unsigned long)
+00104344 00000014 T rw::SetRenderStatePtr(long, void*)
+00104358 00000014 T rw::GetRenderState(long)
+0010436c 00000014 T rw::im2d::GetNearZ()
+00104380 00000020 T rw::im2d::RenderIndexedPrimitive(rw::PrimitiveType, void*, long, void*, long)
+001043a0 00000048 t rw::rasterOpen(void*, long, long)
+001043e8 00000004 t rw::rasterClose(void*, long, long)
+001043ec 00000044 T rw::Raster::registerModule()
+00104430 00000118 T rw::Raster::create(long, long, long, long, long)
+00104548 00000044 T rw::Raster::destroy()
+0010458c 00000020 T rw::Raster::lock(long, long)
+001045ac 00000020 T rw::Raster::unlock(long)
+001045cc 00000020 T rw::Raster::lockPalette(long)
+001045ec 00000020 T rw::Raster::unlockPalette()
+0010460c 00000030 T rw::Raster::calculateNumLevels(long, long)
+0010463c 0000001c T rw::Raster::formatHasAlpha(long)
+00104658 000000c4 T rw::Raster::createFromImage(rw::Image*, long)
+0010471c 00000014 T rw::Raster::show(unsigned long)
+00104730 00000034 T rw::Raster::getCurrentContext()
+00104764 00000024 T rw::conv_RGBA8888_from_RGBA8888(unsigned char*, unsigned char*)
+00104788 00000024 T rw::conv_BGRA8888_from_RGBA8888(unsigned char*, unsigned char*)
+001047ac 00000024 T rw::conv_ABGR8888_from_RGBA8888(unsigned char*, unsigned char*)
+001047d0 00000024 T rw::conv_RGBA8888_from_RGB888(unsigned char*, unsigned char*)
+001047f4 00000024 T rw::conv_BGRA8888_from_RGB888(unsigned char*, unsigned char*)
+00104818 00000024 T rw::conv_ABGR8888_from_RGB888(unsigned char*, unsigned char*)
+0010483c 0000001c T rw::conv_RGB888_from_RGB888(unsigned char*, unsigned char*)
+00104858 0000001c T rw::conv_BGR888_from_RGB888(unsigned char*, unsigned char*)
+00104874 00000014 T rw::conv_ARGB1555_from_ARGB1555(unsigned char*, unsigned char*)
+00104888 0000001c T rw::conv_ARGB1555_from_RGB555(unsigned char*, unsigned char*)
+001048a4 0000003c T rw::conv_RGBA5551_from_ARGB1555(unsigned char*, unsigned char*)
+001048e0 0000003c T rw::conv_ARGB1555_from_RGBA5551(unsigned char*, unsigned char*)
+0010491c 00000084 T rw::conv_RGBA8888_from_ARGB1555(unsigned char*, unsigned char*)
+001049a0 00000034 T rw::conv_ABGR1555_from_ARGB1555(unsigned char*, unsigned char*)
+001049d4 00000074 T rw::expandPal4(unsigned char*, unsigned long, unsigned char*, unsigned long, long, long)
+00104a48 00000070 T rw::compressPal4(unsigned char*, unsigned long, unsigned char*, unsigned long, long, long)
+00104ab8 00000078 T rw::expandPal4_BE(unsigned char*, unsigned long, unsigned char*, unsigned long, long, long)
+00104b30 00000074 T rw::compressPal4_BE(unsigned char*, unsigned long, unsigned char*, unsigned long, long, long)
+00104ba4 0000005c T rw::copyPal8(unsigned char*, unsigned long, unsigned char*, unsigned long, long, long)
+00104c00 00000058 T rw::AnimInterpolatorInfo::registerInterp(rw::AnimInterpolatorInfo*)
+00104c58 00000050 T rw::AnimInterpolatorInfo::unregisterInterp(rw::AnimInterpolatorInfo*)
+00104ca8 00000038 T rw::AnimInterpolatorInfo::find(long)
+00104ce0 000000fc T rw::Animation::create(rw::AnimInterpolatorInfo*, long, long, float)
+00104ddc 00000010 T rw::Animation::destroy()
+00104dec 0000003c T rw::Animation::getNumNodes()
+00104e28 000000e8 T rw::AnimInterpolator::create(long, long)
+00104f10 00000010 T rw::AnimInterpolator::destroy()
+00104f20 00000164 T rw::AnimInterpolator::setCurrentAnim(rw::Animation*)
+00105084 00000010 t rw::uvAnimStreamGetSize(rw::Animation*)
+00105094 00000064 t rw::uvAnimLinearApplyCB(void*, void*)
+001050f8 00000090 t rw::uvAnimLinearInterpCB(void*, void*, void*, float, void*)
+00105188 000000e0 t rw::uvAnimParamInterpCB(void*, void*, void*, float, void*)
+00105268 00000034 t rw::getSizeUVAnim(void*, long, long)
+0010529c 00000004 t rw::uvanimClose(void*, long, long)
+001052a0 0000006c t rw::destroyUVAnim(void*, long, long)
+0010530c 00000088 t rw::writeUVAnim(rw::Stream*, long, void*, long, long)
+00105394 00000024 t rw::createUVAnim(void*, long, long)
+001053b8 00000074 t rw::copyUVAnim(void*, void*, long, long)
+0010542c 00000118 t rw::uvanimOpen(void*, long, long)
+00105544 000000b8 t rw::uvAnimParamApplyCB(void*, void*)
+001055fc 000000a0 t rw::uvAnimStreamWrite(rw::Stream*, rw::Animation*)
+0010569c 000000a0 t rw::uvAnimStreamRead(rw::Stream*, rw::Animation*)
+0010573c 00000084 T rw::makeDummyAnimation(char const*)
+001057c0 00000258 t rw::readUVAnim(rw::Stream*, long, void*, long, long)
+00105a18 000000b4 T rw::registerUVAnimPlugin()
+00105acc 00000020 t rw::getSizeMaterialRights(void*, long, long)
+00105aec 00000020 t rw::readMaterialRights(rw::Stream*, long, void*, long, long)
+00105b0c 0000003c t rw::writeMaterialRights(rw::Stream*, long, void*, long, long)
+00105b48 00000178 t rw::Geometry::addMorphTargets(long) [clone .part.0]
+00105cc0 000000a8 t rw::MaterialList::deinit() [clone .part.0]
+00105d68 0000023c T rw::Geometry::create(long, long, unsigned long)
+00105fa4 00000090 T rw::Geometry::destroy()
+00106034 00000168 T rw::Geometry::allocateData()
+0010619c 000002a4 T rw::Geometry::generateTriangles(signed char*)
+00106440 000000c8 T rw::MaterialList::appendMaterial(rw::Material*)
+00106508 0000003c T rw::MaterialList::findIndex(rw::Material*)
+00106544 00000104 T rw::Material::create()
+00106648 00000068 T rw::Material::destroy()
+001066b0 000001f8 T rw::Material::streamRead(rw::Stream*)
+001068a8 00000284 T rw::MaterialList::streamRead(rw::Stream*, rw::MaterialList*)
+00106b2c 00000370 T rw::Geometry::streamRead(rw::Stream*)
+00106e9c 0000005c T rw::registerMaterialRightsPlugin()
+00106ef8 0000003c t _GLOBAL__sub_I__ZN2rw8Geometry12numAllocatedE
+00106f34 0000001c t rw::frameOpen(void*, long, long)
+00106f50 00000004 t rw::frameClose(void*, long, long)
+00106f54 00000060 t rw::syncObjRecurse(rw::Frame*)
+00106fb4 0000006c t rw::syncLTMRecurse(rw::Frame*, unsigned char)
+00107020 0000009c t rw::syncRecurse(rw::Frame*, unsigned char)
+001070bc 000000f4 t rw::countCB(rw::Frame*, void*)
+001071b0 00000040 T rw::Frame::registerModule()
+001071f0 00000104 T rw::Frame::create()
+001072f4 000000c4 t rw::cloneRecurse(rw::Frame*, rw::Frame*)
+001073b8 00000098 T rw::Frame::destroyHierarchy()
+00107450 00000040 T rw::Frame::forAllChildren(rw::Frame* (*)(rw::Frame*, void*), void*)
+00107490 00000064 T rw::Frame::count()
+001074f4 00000070 T rw::Frame::getLTM()
+00107564 00000104 T rw::Frame::syncDirty()
+00107668 00000060 T rw::Frame::rotate(rw::V3d const*, float, rw::CombineOp)
+001076c8 00000060 T rw::Frame::translate(rw::V3d const*, rw::CombineOp)
+00107728 00000054 T rw::Frame::updateObjects()
+0010777c 00000120 T rw::Frame::setHierarchyRoot(rw::Frame*)
+0010789c 000000c8 T rw::Frame::removeChild()
+00107964 00000124 T rw::Frame::addChild(rw::Frame*, long)
+00107a88 00000070 T rw::Frame::cloneAndLink()
+00107af8 00000040 T rw::Frame::purgeClone()
+00107b38 00000288 T rw::FrameList_::streamRead(rw::Stream*)
+00107dc0 00000024 t _GLOBAL__sub_I__ZN2rw5Frame12numAllocatedE
+00107de4 00000014 T rw::setError(rw::Error*)
+00107df8 0000004c T rw::dbgsprint(unsigned long, ...)
+00107e44 0000007c t rw::Texture::destroy() [clone .part.0]
+00107ec0 00000074 t rw::defaultFindCB(char const*)
+00107f34 00000044 T rw::Texture::registerModule()
+00107f78 00000114 T rw::TexDictionary::create()
+0010808c 00000074 t rw::textureOpen(void*, long, long)
+00108100 0000010c T rw::TexDictionary::destroy()
+0010820c 00000114 t rw::textureClose(void*, long, long)
+00108320 00000148 T rw::Texture::create(rw::Raster*)
+00108468 00000064 t rw::defaultReadCB(char const*, char const*)
+001084cc 00000140 t rw::Texture::read(char const*, char const*) [clone .part.0]
+0010860c 00000018 T rw::Texture::destroy()
+00108624 0000028c T rw::Texture::streamRead(rw::Stream*)
+001088b0 00000054 T rw::Texture::streamGetSize()
+00108904 0000011c T rw::Texture::streamWrite(rw::Stream*)
+00108a20 00000054 t _GLOBAL__sub_I__ZN2rw7Texture12numAllocatedE
+00108a74 00000080 t rw::getSizeMesh(void*, long, long)
+00108af4 0000016c t rw::writeMesh(rw::Stream*, long, void*, long, long)
+00108c60 00000054 t rw::getSizeNativeData(void*, long, long)
+00108cb4 00000084 t rw::writeNativeData(rw::Stream*, long, void*, long, long)
+00108d38 00000070 t rw::destroyNativeData(void*, long, long)
+00108da8 000001c8 t rw::readNativeData(rw::Stream*, long, void*, long, long)
+00108f70 00000110 T rw::Geometry::allocateMeshes(long, unsigned long, long)
+00109080 0000019c t rw::readMesh(rw::Stream*, long, void*, long, long)
+0010921c 00000064 T rw::registerMeshPlugin()
+00109280 00000028 T rw::MeshHeader::guessNumTriangles()
+001092a8 00000064 T rw::registerNativeDataPlugin()
+0010930c 00000004 t rw::nothing(rw::ObjPipeline*, rw::Atomic*)
+00109310 00000028 T rw::ObjPipeline::init(unsigned long)
+00109338 00000058 T rw::ObjPipeline::create()
+00109390 00000010 T rw::ObjPipeline::destroy()
+001093a0 00000068 T rw::findMinVertAndNumVertices(unsigned short*, unsigned long, unsigned long*, long*)
+00109408 000001b4 T rw::instV3d(int, unsigned char*, rw::V3d*, unsigned long, unsigned long)
+001095bc 00000120 T rw::uninstV3d(int, rw::V3d*, unsigned char*, unsigned long, unsigned long)
+001096dc 00000064 T rw::instTexCoords(int, unsigned char*, rw::TexCoords*, unsigned long, unsigned long)
+00109740 00000064 T rw::uninstTexCoords(int, rw::TexCoords*, unsigned char*, unsigned long, unsigned long)
+001097a4 000000e8 T rw::instColor(int, unsigned char*, rw::RGBA*, unsigned long, unsigned long)
+0010988c 00000078 T rw::uninstColor(int, rw::RGBA*, unsigned char*, unsigned long, unsigned long)
+00109904 00000004 t rw::defCtor(void*, long, long)
+00109908 00000004 t rw::defCopy(void*, void*, long, long)
+0010990c 00000004 t rw::defDtor(void*, long, long)
+00109910 00000014 T rw::PluginList::open()
+00109924 000000bc T rw::PluginList::close()
+001099e0 00000044 T rw::PluginList::construct(void*)
+00109a24 00000044 T rw::PluginList::destruct(void*)
+00109a68 00000048 T rw::PluginList::copy(void*, void*)
+00109ab0 00000154 T rw::PluginList::streamRead(rw::Stream*, void*)
+00109c04 00000064 T rw::PluginList::streamGetSize(void*)
+00109c68 000000a8 T rw::PluginList::streamWrite(rw::Stream*, void*)
+00109d10 00000088 T rw::PluginList::streamSkip(rw::Stream*)
+00109d98 00000048 T rw::PluginList::assertRights(void*, unsigned long, unsigned long)
+00109de0 00000100 T rw::PluginList::registerPlugin(long, unsigned long, void* (*)(void*, long, long), void* (*)(void*, long, long), void* (*)(void*, void*, long, long))
+00109ee0 00000044 T rw::PluginList::registerStream(unsigned long, rw::Stream* (*)(rw::Stream*, long, void*, long, long), rw::Stream* (*)(rw::Stream*, long, void*, long, long), long (*)(void*, long, long))
+00109f24 0000005c T rw::PluginList::setStreamRightsCallback(unsigned long, void (*)(void*, long, long, unsigned long))
+00109f80 0000005c T rw::PluginList::setStreamAlwaysCallback(unsigned long, void (*)(void*, long, long))
+00109fdc 00000104 T rw::World::create()
+0010a0e0 00000098 T rw::World::addLight(rw::Light*)
+0010a178 0000004c T rw::World::removeLight(rw::Light*)
+0010a1c4 00000048 T rw::World::addCamera(rw::Camera*)
+0010a20c 0000016c T rw::World::addClump(rw::Clump*)
+0010a378 00000034 T rw::World::render()
+0010a3ac 000001fc T rw::World::enumerateLights(rw::Atomic*, rw::WorldLights*)
+0010a5a8 00000024 t _GLOBAL__sub_I__ZN2rw5World12numAllocatedE
+0010a5cc 000000b4 T rw::BBox::calculate(rw::V3d*, long)
+0010a680 00000004 t rw::lightSync(rw::ObjectWithFrame*)
+0010a684 00000008 t rw::worldLightSync(rw::ObjectWithFrame*)
+0010a68c 00000144 T rw::Light::create(long)
+0010a7d0 000000b0 T rw::Light::destroy()
+0010a880 00000018 T rw::Light::setAngle(float)
+0010a898 00000034 T rw::Light::setColor(float, float, float)
+0010a8cc 0000019c T rw::Light::streamRead(rw::Stream*)
+0010aa68 00000024 t _GLOBAL__sub_I__ZN2rw5Light12numAllocatedE
+0010aa8c 0000000c t rw::createAtomicMatFX(void*, long, long)
+0010aa98 00000014 t rw::copyAtomicMatFX(void*, void*, long, long)
+0010aaac 0000000c t rw::createMaterialMatFX(void*, long, long)
+0010aab8 00000098 t rw::clearMatFX(rw::MatFX*)
+0010ab50 00000038 t rw::destroyMaterialMatFX(void*, long, long)
+0010ab88 000000c4 t rw::getSizeMaterialMatFX(void*, long, long)
+0010ac4c 00000018 t rw::writeAtomicMatFX(rw::Stream*, long, void*, long, long)
+0010ac64 00000140 t rw::writeMaterialMatFX(rw::Stream*, long, void*, long, long)
+0010ada4 0000012c t rw::copyMaterialMatFX(void*, void*, long, long)
+0010aed0 0000004c t rw::matfxClose(void*, long, long)
+0010af1c 00000044 t rw::matfxOpen(void*, long, long)
+0010af60 0000002c t rw::getSizeAtomicMatFX(void*, long, long)
+0010af8c 0000004c t rw::readAtomicMatFX(rw::Stream*, long, void*, long, long)
+0010afd8 000000f0 T rw::MatFX::setEffects(rw::Material*, unsigned long)
+0010b0c8 00000364 t rw::readMaterialMatFX(rw::Stream*, long, void*, long, long)
+0010b42c 00000014 T rw::MatFX::get(rw::Material const*)
+0010b440 0000012c T rw::registerMatFXPlugin()
+0010b56c 00000078 T rw::BMPheader::read(rw::Stream*)
+0010b5e4 000003c0 T rw::readBMP(char const*)
+0010b9a4 000003f8 T rw::writeBMP(rw::Image*, char const*)
+0010bd9c 00000014 t rw::createUserData(void*, long, long)
+0010bdb0 000000d8 t rw::destroyUserData(void*, long, long)
+0010be88 000000b8 t rw::getSizeUserData(void*, long, long)
+0010bf40 00000180 t rw::copyUserData(void*, void*, long, long)
+0010c0c0 0000013c t rw::writeUserData(rw::Stream*, long, void*, long, long)
+0010c1fc 000001d8 t rw::readUserData(rw::Stream*, long, void*, long, long)
+0010c3d4 000001e0 T rw::registerUserDataPlugin()
+0010c5b4 00000004 T rw::StreamMemory::close()
+0010c5b8 00000054 T rw::StreamMemory::seek(long, long)
+0010c60c 00000008 T rw::StreamMemory::tell()
+0010c614 00000014 T rw::StreamMemory::eof()
+0010c628 00000004 W rw::StreamFile::~StreamFile()
+0010c628 00000004 W rw::StreamFile::~StreamFile()
+0010c62c 00000004 W rw::StreamMemory::~StreamMemory()
+0010c62c 00000004 W rw::StreamMemory::~StreamMemory()
+0010c630 00000014 T rw::StreamFile::write8(void const*, unsigned long)
+0010c644 00000014 T rw::StreamFile::read8(void*, unsigned long)
+0010c658 00000008 T rw::StreamFile::seek(long, long)
+0010c660 00000008 T rw::StreamFile::tell()
+0010c668 00000018 T rw::StreamFile::eof()
+0010c680 00000014 W rw::StreamFile::~StreamFile()
+0010c694 00000014 W rw::StreamMemory::~StreamMemory()
+0010c6a8 00000048 T rw::StreamFile::close()
+0010c6f0 000000b8 T rw::StreamMemory::read8(void*, unsigned long)
+0010c7a8 000000f8 T rw::StreamMemory::write8(void const*, unsigned long)
+0010c8a0 00000070 T rw::strncmp_ci(char const*, char const*, int)
+0010c910 00000120 T rw::slerp(rw::Quat const&, rw::Quat const&, float)
+0010ca30 0000003c T rw::cross(rw::V3d const&, rw::V3d const&)
+0010ca6c 0000009c T rw::V3d::transformPoints(rw::V3d*, rw::V3d const*, long, rw::Matrix const*)
+0010cb08 00000084 T rw::V3d::transformVectors(rw::V3d*, rw::V3d const*, long, rw::Matrix const*)
+0010cb8c 0000023c T rw::RawMatrix::mult(rw::RawMatrix*, rw::RawMatrix*, rw::RawMatrix*)
+0010cdc8 0000006c T rw::Matrix::create()
+0010ce34 00000034 T rw::Matrix::setIdentity()
+0010ce68 00000180 T rw::Matrix::mult_(rw::Matrix*, rw::Matrix const*, rw::Matrix const*)
+0010cfe8 0000007c T rw::Matrix::mult(rw::Matrix*, rw::Matrix const*, rw::Matrix const*)
+0010d064 000000fc T rw::Matrix::translate(rw::V3d const*, rw::CombineOp)
+0010d160 000000bc T rw::Matrix::invertOrthonormal(rw::Matrix*, rw::Matrix const*)
+0010d21c 00000168 T rw::Matrix::invertGeneral(rw::Matrix*, rw::Matrix const*)
+0010d384 00000064 T rw::Matrix::invert(rw::Matrix*, rw::Matrix const*)
+0010d3e8 00000158 T rw::Matrix::makeRotation(rw::Matrix*, rw::V3d const*, float)
+0010d540 000000c0 T rw::Matrix::rotate(rw::V3d const*, float, rw::CombineOp)
+0010d600 000000d0 T rw::Matrix::makeRotation(rw::Matrix*, rw::Quat const&)
+0010d6d0 000000c0 T rw::Matrix::rotate(rw::Quat const&, rw::CombineOp)
+0010d790 00000070 T rw::Matrix::normalError()
+0010d800 00000058 T rw::Matrix::orthogonalError()
+0010d858 00000084 T rw::Matrix::identityError()
+0010d8dc 000000b0 T rw::Matrix::optimize(rw::Matrix::Tolerance*)
+0010d98c 00000168 T rw::correctPathCase(char*)
+0010daf4 00000044 T rw::makePath(char*)
+0010db38 0000000c T rw::Stream::write32(void const*, unsigned long)
+0010db44 0000000c T rw::Stream::write16(void const*, unsigned long)
+0010db50 0000000c T rw::Stream::read32(void*, unsigned long)
+0010db5c 0000000c T rw::Stream::read16(void*, unsigned long)
+0010db68 0000002c T rw::Stream::writeI8(signed char)
+0010db94 0000002c T rw::Stream::writeU8(unsigned char)
+0010dbc0 0000002c T rw::Stream::writeI16(short)
+0010dbec 0000002c T rw::Stream::writeU16(unsigned short)
+0010dc18 00000028 T rw::Stream::writeI32(long)
+0010dc40 00000028 T rw::Stream::writeU32(unsigned long)
+0010dc68 00000028 T rw::Stream::writeF32(float)
+0010dc90 00000028 T rw::Stream::readI8()
+0010dcb8 00000028 T rw::Stream::readU8()
+0010dce0 00000028 T rw::Stream::readI16()
+0010dd08 00000028 T rw::Stream::readU16()
+0010dd30 00000028 T rw::Stream::readI32()
+0010dd58 00000028 T rw::Stream::readU32()
+0010dd80 00000028 T rw::Stream::readF32()
+0010dda8 0000001c T rw::StreamMemory::open(unsigned char*, unsigned long, unsigned long)
+0010ddc4 000000cc T rw::StreamFile::open(char const*, char const*)
+0010de90 0000006c T rw::writeChunkHeader(rw::Stream*, long, long)
+0010defc 000000c0 T rw::readChunkHeaderInfo(rw::Stream*, rw::ChunkHeaderInfo*)
+0010dfbc 00000094 T rw::findChunk(rw::Stream*, unsigned long, unsigned long*, unsigned long*)
+0010e050 0000009c T rw::getFileContents(char const*, unsigned long*)
+0010e0ec 000002d4 T rw::readPNG(char const*)
+0010e3c0 00000368 T rw::writePNG(rw::Image*, char const*)
+0010e728 0000000c t rw::createSkin(void*, long, long)
+0010e734 00000048 t rw::destroySkin(void*, long, long)
+0010e77c 00000024 t rw::skinRights(void*, long, long, unsigned long)
+0010e7a0 0000003c t rw::skinAlways(void*, long, long)
+0010e7dc 0000000c t rw::createSkinAtm(void*, long, long)
+0010e7e8 00000004 t rw::destroySkinAtm(void*, long, long)
+0010e7ec 0000000c t rw::copySkinAtm(void*, void*, long, long)
+0010e7f8 000000cc t rw::copySkin(void*, void*, long, long)
+0010e8c4 000000d8 t rw::getSizeSkin(void*, long, long)
+0010e99c 00000058 t rw::skinClose(void*, long, long)
+0010e9f4 00000048 t rw::skinOpen(void*, long, long)
+0010ea3c 000000cc T rw::readSkinSplitData(rw::Stream*, rw::Skin*)
+0010eb08 00000064 T rw::writeSkinSplitData(rw::Stream*, rw::Skin*)
+0010eb6c 000001dc t rw::writeSkin(rw::Stream*, long, void*, long, long)
+0010ed48 00000024 T rw::skinSplitDataSize(rw::Skin*)
+0010ed6c 00000158 T rw::registerSkinPlugin()
+0010eec4 000000d8 T rw::Skin::init(long, long, long)
+0010ef9c 00000210 t rw::readSkinLegacy(rw::Stream*, long, void*, long, long)
+0010f1ac 0000004c T rw::Skin::findNumWeights(long)
+0010f1f8 000000ec T rw::Skin::findUsedBones(long)
+0010f2e4 00000234 t rw::readSkin(rw::Stream*, long, void*, long, long)
+0010f518 00000014 T rw::defaultEndUpdateCB(rw::Camera*)
+0010f52c 0000001c T rw::worldBeginUpdateCB(rw::Camera*)
+0010f548 00000008 T rw::worldEndUpdateCB(rw::Camera*)
+0010f550 00000008 t rw::worldCameraSync(rw::ObjectWithFrame*)
+0010f558 00000030 T rw::defaultBeginUpdateCB(rw::Camera*)
+0010f588 0000055c t rw::buildPlanes(rw::Camera*)
+0010fae4 000003fc t rw::cameraSync(rw::ObjectWithFrame*)
+0010fee0 00000188 T rw::Camera::create()
+00110068 000000b8 T rw::Camera::destroy()
+00110120 00000014 T rw::Camera::clear(rw::RGBA*, unsigned long)
+00110134 00000008 T rw::Camera::showRaster(unsigned long)
+0011013c 00000094 T rw::calczShiftScale(rw::Camera*)
+001101d0 00000020 T rw::Camera::setNearPlane(float)
+001101f0 00000020 T rw::Camera::setFarPlane(float)
+00110210 0000012c T rw::Camera::streamRead(rw::Stream*)
+0011033c 000000f8 T rw::Camera::setFOV(float, float)
+00110434 00000024 t _GLOBAL__sub_I__ZN2rw6Camera12numAllocatedE
+00110458 0000001c t rw::createHAnim(void*, long, long)
+00110474 0000006c t rw::getSizeHAnim(void*, long, long)
+001104e0 00000010 t rw::hAnimFrameGetSize(rw::Animation*)
+001104f0 000000d4 t rw::writeHAnim(rw::Stream*, long, void*, long, long)
+001105c4 0000001c t rw::hanimClose(void*, long, long)
+001105e0 000000a8 t rw::hanimOpen(void*, long, long)
+00110688 00000078 t rw::hAnimFrameWrite(rw::Stream*, rw::Animation*)
+00110700 00000090 t rw::hAnimFrameRead(rw::Stream*, rw::Animation*)
+00110790 000000b8 t rw::hanimInterpCB(void*, void*, void*, float, void*)
+00110848 0000002c t rw::hanimApplyCB(void*, void*)
+00110874 000001a4 T rw::HAnimHierarchy::create(long, long*, long*, long, long)
+00110a18 0000018c t rw::readHAnim(rw::Stream*, long, void*, long, long)
+00110ba4 000000b4 t rw::copyHAnim(void*, void*, long, long)
+00110c58 00000040 T rw::HAnimHierarchy::destroy()
+00110c98 00000070 t rw::destroyHAnim(void*, long, long)
+00110d08 00000014 T rw::HAnimData::get(rw::Frame*)
+00110d1c 000000b4 T rw::registerHAnimPlugin()
+00110dd0 00000010 t rw::atomicSync(rw::ObjectWithFrame*)
+00110de0 00000008 t rw::worldAtomicSync(rw::ObjectWithFrame*)
+00110de8 00000020 t rw::getSizeAtomicRights(void*, long, long)
+00110e08 00000020 t rw::readAtomicRights(rw::Stream*, long, void*, long, long)
+00110e28 0000003c t rw::writeAtomicRights(rw::Stream*, long, void*, long, long)
+00110e64 00000024 t rw::Clump::addLight(rw::Light*) [clone .part.0]
+00110e88 00000044 T rw::Atomic::defaultRenderCB(rw::Atomic*)
+00110ecc 00000110 T rw::Clump::create()
+00110fdc 00000044 T rw::Clump::render()
+00111020 00000144 T rw::Atomic::create()
+00111164 000000d8 T rw::Atomic::destroy()
+0011123c 000001b8 T rw::Clump::destroy()
+001113f4 00000070 T rw::Atomic::setGeometry(rw::Geometry*, unsigned long)
+00111464 0000007c T rw::Atomic::clone()
+001114e0 00000130 T rw::Clump::clone()
+00111610 00000060 T rw::Atomic::getWorldBoundingSphere()
+00111670 00000264 T rw::Atomic::streamReadClump(rw::Stream*, rw::FrameList_*, rw::Geometry**)
+001118d4 000008bc T rw::Clump::streamRead(rw::Stream*)
+00112190 0000005c T rw::registerAtomicRightsPlugin()
+001121ec 0000003c t _GLOBAL__sub_I__ZN2rw5Clump12numAllocatedE
+00112228 000000cc T rw::TGAHeader::read(rw::Stream*)
+001122f4 000000a0 T rw::TGAHeader::write(rw::Stream*)
+00112394 000003f4 T rw::readTGA(char const*)
+00112788 0000038c T rw::writeTGA(rw::Image*, char const*)
+00112b14 00000018 t rw::c3d::createNativeRaster(void*, long, long)
+00112b2c 00000018 t rw::c3d::copyNativeRaster(void*, void*, long, long)
+00112b44 000003f4 t rw::c3d::rasterCreateCameraTexture(rw::Raster*, bool)
+00112f38 0000010c t rw::c3d::destroyNativeRaster(void*, long, long)
+00113044 00000158 T rw::c3d::allocateETC(rw::Raster*)
+0011319c 00000254 T rw::c3d::rasterCreate(rw::Raster*)
+001133f0 00000174 T rw::c3d::texCompress(rw::Raster*, rw::c3d::C3DRaster*, int)
+00113564 00000100 T rw::c3d::texSwizzle(rw::Raster*, rw::c3d::C3DRaster*, int)
+00113664 000000c8 T rw::c3d::texUnswizzle(rw::Raster*, rw::c3d::C3DRaster*)
+0011372c 000001bc T rw::c3d::rasterLock(rw::Raster*, long, long)
+001138e8 00000114 T rw::c3d::rasterUnlock(rw::Raster*, long)
+001139fc 00000018 T rw::c3d::rasterNumLevels(rw::Raster*)
+00113a14 0000013c T rw::c3d::imageFindRasterFormat(rw::Image*, long, long*, long*, long*, long*)
+00113b50 00000360 T rw::c3d::rasterFromImage(rw::Raster*, rw::Image*)
+00113eb0 00000288 T rw::c3d::rasterToImage(rw::Raster*)
+00114138 00000050 T rw::c3d::registerNativeRaster()
+00114188 0000010c T rw::c3d::skinInstanceCB(rw::Geometry*, rw::c3d::InstanceDataHeader*, long)
+00114294 00000024 T rw::c3d::skinUninstanceCB(rw::Geometry*, rw::c3d::InstanceDataHeader*)
+001142b8 00000028 t rw::c3d::skinClose(void*, long, long)
+001142e0 000004b0 T rw::c3d::skinRenderCB(rw::Atomic*, rw::c3d::InstanceDataHeader*)
+00114790 00000058 t rw::c3d::skinOpen(void*, long, long)
+001147e8 00000040 T rw::c3d::initSkin()
+00114828 000001e8 t rw::c3d::shrinkSomeTexture() [clone .isra.0]
+00114a10 00000054 T rw::c3d::safeLinearAlloc(unsigned int)
+00114a64 00000088 T rw::c3d::TexFree(rw::c3d::C3DRaster*)
+00114aec 0000016c T rw::c3d::TexAlloc(rw::Raster*, int, int, GPU_TEXCOLOR, int)
+00114c58 00000024 t rw::c3d::uninstance(rw::ObjPipeline*, rw::Atomic*)
+00114c7c 00000028 T rw::c3d::defaultUninstanceCB(rw::Geometry*, rw::c3d::InstanceDataHeader*)
+00114ca4 00000080 t rw::c3d::render(rw::ObjPipeline*, rw::Atomic*)
+00114d24 00000344 T rw::c3d::defaultInstanceCB(rw::Geometry*, rw::c3d::InstanceDataHeader*, long)
+00115068 0000007c T rw::c3d::freeInstanceData(rw::Geometry*)
+001150e4 0000022c t rw::c3d::instance(rw::ObjPipeline*, rw::Atomic*)
+00115310 00000014 T rw::c3d::destroyNativeData(void*, long, long)
+00115324 00000070 T rw::c3d::ObjPipeline::create()
+00115394 0000008c T rw::c3d::makeDefaultPipeline()
+00115420 00000004 t rw::c3d::driverClose(void*, long, long)
+00115424 00000098 t rw::c3d::driverOpen(void*, long, long)
+001154bc 00000040 T rw::c3d::registerPlatformPlugins()
+001154fc 0000003c t rw::c3d::matfxClose(void*, long, long)
+00115538 00000098 t rw::c3d::matfxOpen(void*, long, long)
+001155d0 00000084 T rw::c3d::matfxDefaultRender(rw::c3d::InstanceDataHeader*, rw::c3d::InstanceData*, unsigned long)
+00115654 0000016c T rw::c3d::uploadEnvMatrix(rw::Frame*)
+001157c0 000000d0 T rw::c3d::matfxEnvRender(rw::c3d::InstanceDataHeader*, rw::c3d::InstanceData*, unsigned long, rw::MatFX::Env*)
+00115890 000000a8 T rw::c3d::matfxRenderCB(rw::Atomic*, rw::c3d::InstanceDataHeader*)
+00115938 0000003c T rw::c3d::initMatFX()
+00115974 000001f8 t rw::c3d::getRenderState(long)
+00115b6c 000000c0 t rw::c3d::showRaster(rw::Raster*, unsigned long)
+00115c2c 00000008 t rw::c3d::endUpdate(rw::Camera*)
+00115c34 00000110 t rw::c3d::prepareFrameBuffer(rw::Camera*) [clone .isra.0]
+00115d44 00000044 t rw::c3d::clearCamera(rw::Camera*, rw::RGBA*, unsigned long)
+00115d88 000000bc t rw::c3d::setRasterParams(int, long, long, long)
+00115e44 000000a8 t rw::c3d::cameraRenderOn(rw::Camera*)
+00115eec 000001dc t rw::c3d::beginUpdate(rw::Camera*)
+001160c8 00000064 t rw::c3d::setTextureAlpha(int)
+0011612c 00000084 t rw::c3d::setRasterStage(int, rw::Raster*)
+001161b0 000003d4 t rw::c3d::setRenderState(long, void*)
+00116584 00000204 t rw::c3d::rasterRenderFast(rw::Raster*, long, long)
+00116788 000003a4 t rw::c3d::deviceSystemC3D(rw::DeviceReq, void*, long)
+00116b2c 00000190 T rw::c3d::flushC3DRenderState()
+00116cbc 00000010 T rw::c3d::getAlphaBlend()
+00116ccc 00000078 T rw::c3d::setTexture(long, rw::Texture*)
+00116d44 00000250 T rw::c3d::setLights(rw::WorldLights*)
+00116f94 00000098 T rw::c3d::setWorldMatrix(rw::Matrix*)
+0011702c 00000140 T rw::c3d::setMaterial(rw::RGBA const&, rw::SurfaceProperties const&, float)
+0011716c 000002f8 T rw::c3d::flushCache()
+00117464 00000020 T rw::c3d::cameraTilt(rw::Camera*)
+00117484 00000018 T rw::c3d::Shader::loadDVLB(unsigned char*, unsigned long)
+0011749c 00000074 T rw::c3d::Shader::create(unsigned long, void (*)())
+00117510 00000030 T rw::c3d::Shader::use()
+00117540 00000024 T rw::c3d::Shader::destroy()
+00117564 00000060 T rw::c3d::combiner_simple()
+001175c4 00000070 T rw::c3d::combiner_matfx()
+00117634 00000090 T rw::c3d::openIm2D()
+001176c4 00000020 T rw::c3d::closeIm2D()
+001176e4 000000d8 T rw::c3d::im2DSetXform()
+001177bc 0000021c T rw::c3d::convertPrimitive(rw::PrimitiveType, GPU_Primitive_t*, unsigned short**, int*)
+001179d8 00000140 T rw::c3d::im2DRenderIndexedPrimitive(rw::PrimitiveType, void*, long, void*, long)
+00117b18 0000008c T rw::c3d::im2DRenderLine(void*, long, long, long)
+00117ba4 0000008c T rw::c3d::im2DRenderTriangle(void*, long, long, long, long)
+00117c30 0000001c T rw::c3d::im2DRenderPrimitive(rw::PrimitiveType, void*, long)
+00117c4c 00000090 T rw::c3d::openIm3D()
+00117cdc 00000020 T rw::c3d::closeIm3D()
+00117cfc 0000005c T rw::c3d::im3DTransform(void*, long, rw::Matrix*, unsigned long)
+00117d58 0000013c T rw::c3d::im3DRenderIndexedPrimitive(rw::PrimitiveType, void*, long)
+00117e94 0000000c T rw::c3d::im3DRenderPrimitive(rw::PrimitiveType)
+00117ea0 00000004 T rw::c3d::im3DEnd()
+00117ea4 00000100 t rw::c3d::drawInst_GSemu(rw::c3d::InstanceDataHeader*, rw::c3d::InstanceData*) [clone .part.0]
+00117fa4 00000028 T rw::c3d::drawInst_simple(rw::c3d::InstanceDataHeader*, rw::c3d::InstanceData*)
+00117fcc 00000054 T rw::c3d::drawInst(rw::c3d::InstanceDataHeader*, rw::c3d::InstanceData*)
+00118020 000000bc T rw::c3d::genAttribPointers(rw::c3d::InstanceDataHeader*)
+001180dc 0000001c T rw::c3d::setAttribPointers(rw::c3d::InstanceDataHeader*)
+001180f8 0000005c T rw::c3d::setAttribsFixed()
+00118154 00000094 T rw::c3d::lightingCB(rw::Atomic*)
+001181e8 00000128 T rw::c3d::defaultRenderCB(rw::Atomic*, rw::c3d::InstanceDataHeader*)
+00118310 000001d8 T rw::c3d::etc1_common(unsigned char*, unsigned char**, int, bool)
+001184e8 00000024 t rg_etc1::color_quad_u8::operator[](unsigned long) [clone .part.0]
+0011850c 00000028 t rg_etc1::etc1_optimizer::results::operator=(rg_etc1::etc1_optimizer::results const&) [clone .part.0]
+00118534 00000420 T rg_etc1::etc1_optimizer::evaluate_solution(rg_etc1::etc1_solution_coordinates const&, rg_etc1::etc1_optimizer::potential_solution&, rg_etc1::etc1_optimizer::potential_solution*)
+00118954 00000538 T rg_etc1::etc1_optimizer::evaluate_solution_fast(rg_etc1::etc1_solution_coordinates const&, rg_etc1::etc1_optimizer::potential_solution&, rg_etc1::etc1_optimizer::potential_solution*)
+00118e8c 000005a8 T rg_etc1::etc1_optimizer::compute()
+00119434 000001dc T rg_etc1::pack_etc1_block_init()
+00119610 000004f8 W unsigned long* rg_etc1::indirect_radix_sort<unsigned long, unsigned short>(unsigned long, unsigned long*, unsigned long*, unsigned short const*, unsigned long, unsigned long, bool)
+00119b08 00000244 T rg_etc1::etc1_optimizer::init(rg_etc1::etc1_optimizer::params const&, rg_etc1::etc1_optimizer::results&)
+00119d4c 00000fc4 T rg_etc1::pack_etc1_block(void*, unsigned int const*, rg_etc1::etc1_pack_params&)
+0011ad10 00000158 T rw::c3d::swizzle_8x8(rw::c3d::Packet*, bool)
+0011ae68 00000118 T rw::c3d::cpuSwizzle(unsigned char*, unsigned char*, int, int, int, bool)
+0011af80 00000028 t rw::xbox::matfxClose(void*, long, long)
+0011afa8 0000004c t rw::xbox::matfxOpen(void*, long, long)
+0011aff4 0000003c T rw::xbox::initMatFX()
+0011b030 00000004 T rw::d3d9::matfxRenderCB_Shader(rw::Atomic*, rw::d3d9::InstanceDataHeader*)
+0011b034 00000028 t rw::d3d9::matfxClose(void*, long, long)
+0011b05c 00000058 t rw::d3d9::matfxOpen(void*, long, long)
+0011b0b4 0000003c T rw::d3d9::initMatFX()
+0011b0f0 0000000c t rw::xbox::createVertexFmt(void*, long, long)
+0011b0fc 0000000c t rw::xbox::copyVertexFmt(void*, void*, long, long)
+0011b108 0000001c t rw::xbox::getSizeVertexFmt(void*, long, long)
+0011b124 00000018 t rw::xbox::writeVertexFmt(rw::Stream*, long, void*, long, long)
+0011b13c 00000024 t rw::xbox::readVertexFmt(rw::Stream*, long, void*, long, long)
+0011b160 00000014 T rw::xbox::getVertexFmt(rw::Geometry*)
+0011b174 0000005c T rw::xbox::makeVertexFmt(long, unsigned long)
+0011b1d0 00000078 T rw::xbox::getVertexFmtStride(unsigned long)
+0011b248 00000084 T rw::xbox::registerVertexFormatPlugin()
+0011b2cc 00000228 T rw::xbox::skinInstanceCB(rw::Geometry*, rw::xbox::InstanceDataHeader*)
+0011b4f4 000001f4 T rw::xbox::skinUninstanceCB(rw::Geometry*, rw::xbox::InstanceDataHeader*)
+0011b6e8 00000028 t rw::xbox::skinClose(void*, long, long)
+0011b710 0000004c t rw::xbox::skinOpen(void*, long, long)
+0011b75c 0000027c T rw::xbox::readNativeSkin(rw::Stream*, long, void*, long)
+0011b9d8 00000128 T rw::xbox::writeNativeSkin(rw::Stream*, long, void*, long)
+0011bb00 00000050 T rw::xbox::getSizeNativeSkin(void*, long)
+0011bb50 00000040 T rw::xbox::initSkin()
+0011bb90 00000004 T rw::d3d9::skinInstanceCB(rw::Geometry*, rw::d3d9::InstanceDataHeader*, long)
+0011bb94 00000004 T rw::d3d9::skinRenderCB(rw::Atomic*, rw::d3d9::InstanceDataHeader*)
+0011bb98 00000028 t rw::d3d9::skinClose(void*, long, long)
+0011bbc0 00000054 t rw::d3d9::skinOpen(void*, long, long)
+0011bc14 00000040 T rw::d3d9::initSkin()
+0011bc54 00000028 t rw::d3d8::skinClose(void*, long, long)
+0011bc7c 00000058 t rw::d3d8::skinOpen(void*, long, long)
+0011bcd4 00000040 T rw::d3d8::initSkin()
+0011bd14 00000028 t rw::d3d8::matfxClose(void*, long, long)
+0011bd3c 00000058 t rw::d3d8::matfxOpen(void*, long, long)
+0011bd94 0000003c T rw::d3d8::initMatFX()
+0011bdd0 00000004 T rw::d3d9::defaultRenderCB_Shader(rw::Atomic*, rw::d3d9::InstanceDataHeader*)
+0011bdd4 00000004 T rw::d3d8::defaultRenderCB(rw::Atomic*, rw::d3d8::InstanceDataHeader*)
+0011bdd8 00000004 t rw::xbox::driverClose(void*, long, long)
+0011bddc 00000070 T rw::xbox::destroyNativeData(void*, long, long)
+0011be4c 00000030 T rw::xbox::getSizeNativeData(void*, long, long)
+0011be7c 00000074 T rw::xbox::rasterLock(rw::Raster*, long, long)
+0011bef0 00000030 T rw::xbox::rasterUnlock(rw::Raster*, long)
+0011bf20 00000018 T rw::xbox::rasterNumLevels(rw::Raster*)
+0011bf38 00000020 t rw::xbox::createNativeRaster(void*, long, long)
+0011bf58 00000020 t rw::xbox::copyNativeRaster(void*, void*, long, long)
+0011bf78 000002ec T rw::xbox::readNativeData(rw::Stream*, long, void*, long, long)
+0011c264 0000016c t rw::xbox::uninstance(rw::ObjPipeline*, rw::Atomic*)
+0011c3d0 000001e0 t rw::xbox::instance(rw::ObjPipeline*, rw::Atomic*)
+0011c5b0 000001c4 T rw::xbox::defaultInstanceCB(rw::Geometry*, rw::xbox::InstanceDataHeader*)
+0011c774 0000015c T rw::xbox::defaultUninstanceCB(rw::Geometry*, rw::xbox::InstanceDataHeader*)
+0011c8d0 0000043c T rw::xbox::rasterToImage(rw::Raster*)
+0011cd0c 00000148 T rw::xbox::writeNativeData(rw::Stream*, long, void*, long, long)
+0011ce54 00000174 t rw::xbox::calculateTextureSize(unsigned long, unsigned long, unsigned long, unsigned long) [clone .constprop.0]
+0011cfc8 0000015c t rw::xbox::createTexture(long, long, long, unsigned long)
+0011d124 000002b4 T rw::xbox::rasterCreate(rw::Raster*)
+0011d3d8 00000004 t rw::xbox::destroyNativeRaster(void*, long, long)
+0011d3dc 000000dc t rw::xbox::driverOpen(void*, long, long)
+0011d4b8 0000007c T rw::xbox::registerPlatformPlugins()
+0011d534 00000068 T rw::xbox::ObjPipeline::create()
+0011d59c 00000004 t rw::d3d9::driverClose(void*, long, long)
+0011d5a0 00000074 T rw::d3d9::getSizeNativeData(void*, long, long)
+0011d614 00000088 t rw::d3d9::render(rw::ObjPipeline*, rw::Atomic*)
+0011d69c 00000110 t rw::d3d9::driverOpen(void*, long, long)
+0011d7ac 000002dc T rw::d3d9::writeNativeData(rw::Stream*, long, void*, long, long)
+0011da88 00000284 T rw::d3d9::defaultUninstanceCB(rw::Geometry*, rw::d3d9::InstanceDataHeader*)
+0011dd0c 0000005c T rw::d3d9::registerPlatformPlugins()
+0011dd68 0000006c T rw::d3d9::createVertexDeclaration(rw::d3d9::VertexElement*)
+0011ddd4 000003e0 T rw::d3d9::readNativeData(rw::Stream*, long, void*, long, long)
+0011e1b4 000005ac T rw::d3d9::defaultInstanceCB(rw::Geometry*, rw::d3d9::InstanceDataHeader*, long)
+0011e760 00000070 T rw::d3d9::freeInstanceData(rw::Geometry*)
+0011e7d0 00000014 T rw::d3d9::destroyNativeData(void*, long, long)
+0011e7e4 00000194 t rw::d3d9::uninstance(rw::ObjPipeline*, rw::Atomic*)
+0011e978 00000294 t rw::d3d9::instance(rw::ObjPipeline*, rw::Atomic*)
+0011ec0c 00000070 T rw::d3d9::ObjPipeline::create()
+0011ec7c 00000020 t rw::d3d::createNativeRaster(void*, long, long)
+0011ec9c 0000004c t rw::d3d::destroyNativeRaster(void*, long, long)
+0011ece8 00000020 t rw::d3d::copyNativeRaster(void*, void*, long, long)
+0011ed08 00000004 W rw::conv_RGBA8888_from_BGRA8888(unsigned char*, unsigned char*)
+0011ed0c 00000004 W rw::conv_RGB888_from_BGR888(unsigned char*, unsigned char*)
+0011ed10 00000204 t rw::d3d::calculateTextureSize(unsigned long, unsigned long, unsigned long, unsigned long) [clone .constprop.0]
+0011ef14 0000002c T rw::d3d::createIndexBuffer(unsigned long, bool)
+0011ef40 00000010 T rw::d3d::destroyIndexBuffer(void*)
+0011ef50 00000004 T rw::d3d::lockIndices(void*, unsigned long, unsigned long, unsigned long)
+0011ef54 00000004 T rw::d3d::unlockIndices(void*)
+0011ef58 0000002c T rw::d3d::createVertexBuffer(unsigned long, unsigned long, bool)
+0011ef84 00000010 T rw::d3d::destroyVertexBuffer(void*)
+0011ef94 00000004 T rw::d3d::lockVertices(void*, unsigned long, unsigned long, unsigned long)
+0011ef98 00000004 T rw::d3d::unlockVertices(void*)
+0011ef9c 00000168 T rw::d3d::createTexture(long, long, long, unsigned long, unsigned long)
+0011f104 0000033c T rw::d3d::rasterCreate(rw::Raster*)
+0011f440 00000074 T rw::d3d::rasterLock(rw::Raster*, long, long)
+0011f4b4 00000030 T rw::d3d::rasterUnlock(rw::Raster*, long)
+0011f4e4 00000018 T rw::d3d::rasterNumLevels(rw::Raster*)
+0011f4fc 000001b4 T rw::d3d::imageFindRasterFormat(rw::Image*, long, long*, long*, long*, long*)
+0011f6b0 00000344 T rw::d3d::rasterFromImage(rw::Raster*, rw::Image*)
+0011f9f4 000003ac T rw::d3d::rasterToImage(rw::Raster*)
+0011fda0 00000050 T rw::d3d::registerNativeRaster()
+0011fdf0 00000004 t rw::d3d8::driverClose(void*, long, long)
+0011fdf4 00000070 T rw::d3d8::getSizeNativeData(void*, long, long)
+0011fe64 00000088 T rw::d3d8::destroyNativeData(void*, long, long)
+0011feec 00000098 t rw::d3d8::render(rw::ObjPipeline*, rw::Atomic*)
+0011ff84 00000398 T rw::d3d8::readNativeData(rw::Stream*, long, void*, long, long)
+0012031c 0000018c t rw::d3d8::uninstance(rw::ObjPipeline*, rw::Atomic*)
+001204a8 000001a0 t rw::d3d8::instance(rw::ObjPipeline*, rw::Atomic*)
+00120648 000001ec T rw::d3d8::defaultInstanceCB(rw::Geometry*, rw::d3d8::InstanceData*)
+00120834 0000013c T rw::d3d8::defaultUninstanceCB(rw::Geometry*, rw::d3d8::InstanceData*)
+00120970 0000022c T rw::d3d8::writeNativeData(rw::Stream*, long, void*, long, long)
+00120b9c 00000110 t rw::d3d8::driverOpen(void*, long, long)
+00120cac 0000005c T rw::d3d8::registerPlatformPlugins()
+00120d08 00000070 T rw::d3d8::ObjPipeline::create()
+00120d78 00000004 T rw::gl3::initMatFX()
+00120d7c 00000004 T rw::gl3::destroyNativeData(void*, long, long)
+00120d80 00000004 T rw::gl3::initSkin()
+00120d84 00000004 t rw::wdgl::driverClose(void*, long, long)
+00120d88 00000064 T rw::wdgl::destroyNativeData(void*, long, long)
+00120dec 00000030 T rw::wdgl::getSizeNativeData(void*, long, long)
+00120e1c 000000f4 T rw::wdgl::readNativeData(rw::Stream*, long, void*, long, long)
+00120f10 00000068 T rw::wdgl::writeNativeData(rw::Stream*, long, void*, long, long)
+00120f78 00000028 t rw::wdgl::skinClose(void*, long, long)
+00120fa0 00000028 t rw::wdgl::matfxClose(void*, long, long)
+00120fc8 00000084 t rw::wdgl::driverOpen(void*, long, long)
+0012104c 00000088 t rw::wdgl::matfxOpen(void*, long, long)
+001210d4 000000a0 t rw::wdgl::skinOpen(void*, long, long)
+00121174 0000003c T rw::wdgl::registerPlatformPlugins()
+001211b0 00000164 T rw::wdgl::packattrib(unsigned char*, float*, rw::wdgl::AttribDesc*, float)
+00121314 00000408 t rw::wdgl::instance(rw::ObjPipeline*, rw::Atomic*)
+0012171c 00000150 T rw::wdgl::skinInstanceCB(rw::Geometry*, long, unsigned long)
+0012186c 00000164 T rw::wdgl::unpackattrib(float*, unsigned char*, rw::wdgl::AttribDesc*, float)
+001219d0 000002ec t rw::wdgl::uninstance(rw::ObjPipeline*, rw::Atomic*)
+00121cbc 000001ec T rw::wdgl::skinUninstanceCB(rw::Geometry*)
+00121ea8 0000015c T rw::wdgl::readNativeSkin(rw::Stream*, long, void*, long)
+00122004 00000058 T rw::wdgl::writeNativeSkin(rw::Stream*, long, void*, long)
+0012205c 0000001c T rw::wdgl::getSizeNativeSkin(void*, long)
+00122078 00000040 T rw::wdgl::initSkin()
+001220b8 0000003c T rw::wdgl::initMatFX()
+001220f4 00000078 t rw::gl3::driverOpen(void*, long, long)
+0012216c 00000004 t rw::gl3::driverClose(void*, long, long)
+00122170 00000040 T rw::gl3::registerPlatformPlugins()
+001221b0 0000001c t rw::gl3::createNativeRaster(void*, long, long)
+001221cc 00000004 t rw::gl3::destroyNativeRaster(void*, long, long)
+001221d0 0000001c t rw::gl3::copyNativeRaster(void*, void*, long, long)
+001221ec 000000f0 T rw::gl3::rasterCreate(rw::Raster*)
+001222dc 00000008 T rw::gl3::rasterLock(rw::Raster*, long, long)
+001222e4 0000002c T rw::gl3::rasterUnlock(rw::Raster*, long)
+00122310 00000018 T rw::gl3::rasterNumLevels(rw::Raster*)
+00122328 00000128 T rw::gl3::imageFindRasterFormat(rw::Image*, long, long*, long*, long*, long*)
+00122450 0000037c T rw::gl3::rasterFromImage(rw::Raster*, rw::Image*)
+001227cc 00000288 T rw::gl3::rasterToImage(rw::Raster*)
+00122a54 00000050 T rw::gl3::registerNativeRaster()
+00122aa4 00000004 t rw::ps2::driverClose(void*, long, long)
+00122aa8 00000088 T rw::ps2::destroyNativeData(void*, long, long)
+00122b30 0000005c T rw::ps2::getSizeNativeData(void*, long, long)
+00122b8c 0000000c t rw::ps2::createADC(void*, long, long)
+00122b98 00000034 t rw::ps2::destroyADC(void*, long, long)
+00122bcc 00000034 t rw::ps2::getSizeADC(void*, long, long)
+00122c00 00000224 T rw::ps2::readNativeData(rw::Stream*, long, void*, long, long)
+00122e24 00000084 t rw::ps2::copyADC(void*, void*, long, long)
+00122ea8 00000078 t rw::ps2::writeADC(rw::Stream*, long, void*, long, long)
+00122f20 00000134 t rw::ps2::readADC(rw::Stream*, long, void*, long, long)
+00123054 00000074 t rw::ps2::getBatchSize(rw::ps2::MatPipeline*, unsigned long) [clone .part.0]
+001230c8 00000040 T rw::ps2::registerPlatformPlugins()
+00123108 00000068 T rw::ps2::unfixDmaOffsets(rw::ps2::InstanceData*)
+00123170 000000c4 T rw::ps2::writeNativeData(rw::Stream*, long, void*, long, long)
+00123234 00000088 T rw::ps2::instanceXYZ(unsigned long*, rw::Geometry*, rw::Mesh*, unsigned long, unsigned long)
+001232bc 000000ac T rw::ps2::instanceUV(unsigned long*, rw::Geometry*, rw::Mesh*, unsigned long, unsigned long)
+00123368 000000b0 T rw::ps2::instanceUV2(unsigned long*, rw::Geometry*, rw::Mesh*, unsigned long, unsigned long)
+00123418 000000a4 T rw::ps2::instanceRGBA(unsigned long*, rw::Geometry*, rw::Mesh*, unsigned long, unsigned long)
+001234bc 00000110 T rw::ps2::instanceNormal(unsigned long*, rw::Geometry*, rw::Mesh*, unsigned long, unsigned long)
+001235cc 00000070 T rw::ps2::MatPipeline::create()
+0012363c 00000010 T rw::ps2::MatPipeline::destroy()
+0012364c 00000068 T rw::ps2::MatPipeline::setTriBufferSizes(unsigned long, unsigned long)
+001236b4 00000278 T rw::ps2::getInstMeshInfo(rw::ps2::MatPipeline*, rw::Geometry*, rw::Mesh*)
+0012392c 00000320 T rw::ps2::MatPipeline::collectData(rw::Geometry*, rw::ps2::InstanceData*, rw::Mesh*, unsigned char**)
+00123c4c 00000344 t rw::ps2::objUninstance(rw::ObjPipeline*, rw::Atomic*)
+00123f90 00000064 T rw::ps2::ObjPipeline::create()
+00123ff4 00000098 T rw::ps2::insertVertex(rw::Geometry*, long, unsigned long, rw::ps2::Vertex*)
+0012408c 00000130 T rw::ps2::makeDefaultPipeline()
+001241bc 000000b0 t rw::ps2::driverOpen(void*, long, long)
+0012426c 0000008c T rw::ps2::getADCbitsForMesh(rw::Geometry*, rw::Mesh*)
+001242f8 000000b4 T rw::ps2::instanceXYZW(unsigned long*, rw::Geometry*, rw::Mesh*, unsigned long, unsigned long)
+001243ac 00000578 T rw::ps2::MatPipeline::instance(rw::Geometry*, rw::ps2::InstanceData*, rw::Mesh*)
+00124924 0000012c t rw::ps2::objInstance(rw::ObjPipeline*, rw::Atomic*)
+00124a50 00000420 T rw::ps2::genericUninstanceCB(rw::ps2::MatPipeline*, rw::Geometry*, unsigned long*, rw::Mesh*, unsigned char**)
+00124e70 00000080 T rw::ps2::allocateADC(rw::Geometry*)
+00124ef0 00000074 T rw::ps2::genericPreCB(rw::ps2::MatPipeline*, rw::Geometry*)
+00124f64 0000007c T rw::ps2::registerADCPlugin()
+00124fe0 000000d4 t rw::ps2::transferMinSize(long, long, long*, long*)
+001250b4 00000058 t rw::ps2::swizzle(unsigned long, unsigned long, unsigned long)
+00125110 0000005c t rw::ps2::createNativeRaster(void*, long, long)
+0012516c 00000034 t rw::ps2::destroyNativeRaster(void*, long, long)
+001251a0 00000038 t rw::ps2::copyNativeRaster(void*, void*, long, long)
+001251d8 00000018 t rw::ps2::getSizeMipmap(void*, long, long)
+001251f0 00000030 t rw::ps2::readMipmap(rw::Stream*, long, void*, long, long)
+00125220 0000002c t rw::ps2::writeMipmap(rw::Stream*, long, void*, long, long)
+0012524c 00000458 T rw::ps2::getRasterFormat(rw::Raster*)
+001256a4 00002014 T rw::ps2::rasterCreate(rw::Raster*)
+001276b8 00000270 T rw::ps2::unswizzleRaster(rw::Raster*)
+00127928 00000294 T rw::ps2::swizzleRaster(rw::Raster*)
+00127bbc 00000140 T rw::ps2::rasterLock(rw::Raster*, long, long)
+00127cfc 0000006c T rw::ps2::rasterUnlock(rw::Raster*, long)
+00127d68 000000cc T rw::ps2::rasterLockPalette(rw::Raster*, long)
+00127e34 00000094 T rw::ps2::rasterUnlockPalette(rw::Raster*)
+00127ec8 000001a8 T rw::ps2::imageFindRasterFormat(rw::Image*, long, long*, long*, long*, long*)
+00128070 000003d8 T rw::ps2::rasterFromImage(rw::Raster*, rw::Image*)
+00128448 00000464 T rw::ps2::rasterToImage(rw::Raster*)
+001288ac 00000048 T rw::ps2::rasterNumLevels(rw::Raster*)
+001288f4 000000a0 T rw::ps2::registerNativeRaster()
+00128994 00000034 t rw::ps2::matfxClose(void*, long, long)
+001289c8 0000003c T rw::ps2::initMatFX()
+00128a04 00000088 T rw::ps2::makeMatFXPipeline()
+00128a8c 00000024 t rw::ps2::matfxOpen(void*, long, long)
+00128ab0 00000004 t rw::ps2::pdsOpen(void*, long, long)
+00128ab4 0000002c t rw::ps2::pdsClose(void*, long, long)
+00128ae0 00000058 t rw::ps2::materialPDSRights(void*, long, long, unsigned long)
+00128b38 00000058 t rw::ps2::atomicPDSRights(void*, long, long, unsigned long)
+00128b90 0000009c T rw::ps2::registerPDSPipe(rw::Pipeline*)
+00128c2c 000000d0 T rw::ps2::registerPDSPlugin(long)
+00128cfc 000002a0 T rw::ps2::registerPluginPDSPipes()
+00128f9c 00000038 t rw::ps2::skinClose(void*, long, long)
+00128fd4 00000068 T rw::ps2::skinPreCB(rw::ps2::MatPipeline*, rw::Geometry*)
+0012903c 0000003c T rw::ps2::skinPostCB(rw::ps2::MatPipeline*, rw::Geometry*)
+00129078 00000040 T rw::ps2::initSkin()
+001290b8 000000bc T rw::ps2::makeSkinPipeline()
+00129174 00000024 t rw::ps2::skinOpen(void*, long, long)
+00129198 0000025c T rw::ps2::readNativeSkin(rw::Stream*, long, void*, long)
+001293f4 00000128 T rw::ps2::writeNativeSkin(rw::Stream*, long, void*, long)
+0012951c 0000005c T rw::ps2::getSizeNativeSkin(void*, long)
+00129578 0000009c T rw::ps2::instanceSkinData(rw::Geometry*, rw::Mesh*, rw::Skin*, unsigned long*)
+00129614 00000028 T rw::ps2::skinInstanceCB(rw::ps2::MatPipeline*, rw::Geometry*, rw::Mesh*, unsigned char**)
+0012963c 000002a4 T rw::ps2::findVertexSkin(rw::Geometry*, unsigned long*, unsigned long, rw::ps2::Vertex*)
+001298e0 00000064 T rw::ps2::insertVertexSkin(rw::Geometry*, long, unsigned long, rw::ps2::Vertex*)
+00129944 0000007c t ensureBits9(LodePNGBitReader*, unsigned int)
+001299c0 0000009c t ensureBits17(LodePNGBitReader*, unsigned int)
+00129a5c 00000128 t bpmnode_create(BPMLists*, int, unsigned int, BPMNode*)
+00129b84 00000134 t boundaryPM(BPMLists*, BPMNode*, unsigned int, int, int)
+00129cb8 00000068 t getHash(unsigned char const*, unsigned int, unsigned int)
+00129d20 0000004c t updateHashChain(Hash*, unsigned int, unsigned int, unsigned short)
+00129d6c 00000090 t checkColorValidity(LodePNGColorType, unsigned int)
+00129dfc 0000004c t addColorBits(unsigned char*, unsigned int, unsigned int, unsigned int)
+00129e48 00000060 t color_tree_get(ColorTree*, unsigned char, unsigned char, unsigned char, unsigned char)
+00129ea8 000001b0 t getPixelColorRGBA16(unsigned short*, unsigned short*, unsigned short*, unsigned short*, unsigned char const*, unsigned int, LodePNGColorMode const*)
+0012a058 000001bc t Adam7_getpassvalues(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int, unsigned int, unsigned int)
+0012a214 000000fc t readChunk_tRNS(LodePNGColorMode*, unsigned char const*, unsigned int)
+0012a310 000000f4 t readChunk_bKGD(LodePNGInfo*, unsigned char const*, unsigned int)
+0012a404 000000b0 t color_tree_add(ColorTree*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned int)
+0012a4b4 000004c0 t HuffmanTree_makeFromLengths2(HuffmanTree*)
+0012a974 00000060 t LodePNGText_cleanup(LodePNGInfo*)
+0012a9d4 00000090 t LodePNGIText_cleanup(LodePNGInfo*)
+0012aa64 000000c8 t lodepng_color_mode_equal(LodePNGColorMode const*, LodePNGColorMode const*)
+0012ab2c 0000005c t readChunk_pHYs(LodePNGInfo*, unsigned char const*, unsigned int) [clone .part.0]
+0012ab88 00000118 t readChunk_cHRM(LodePNGInfo*, unsigned char const*, unsigned int) [clone .part.0]
+0012aca0 00000074 t lodepng_color_mode_alloc_palette(LodePNGColorMode*)
+0012ad14 000000cc t readChunk_PLTE(LodePNGColorMode*, unsigned char const*, unsigned int)
+0012ade0 00000424 t lodepng_huffman_code_lengths(unsigned int*, unsigned int const*, unsigned int, unsigned int) [clone .part.0]
+0012b204 0000009c t lodepng_chunk_next(unsigned char*, unsigned char*) [clone .part.0]
+0012b2a0 00000088 t huffmanDecodeSymbol(LodePNGBitReader*, HuffmanTree const*) [clone .isra.0]
+0012b328 00000110 t addPaddingBits(unsigned char*, unsigned char const*, unsigned int, unsigned int, unsigned int)
+0012b438 0000005c t uivector_push_back(uivector*, unsigned int)
+0012b494 000000c4 t removePaddingBits(unsigned char*, unsigned char const*, unsigned int, unsigned int, unsigned int)
+0012b558 00000088 t alloc_string(char const*)
+0012b5e0 00000150 t lodepng_add_itext_sized(LodePNGInfo*, char const*, char const*, char const*, char const*, unsigned int)
+0012b730 0000008c t generateFixedDistanceTree(HuffmanTree*)
+0012b7bc 000001cc t color_tree_cleanup(ColorTree*)
+0012b988 000000d0 t generateFixedLitLenTree(HuffmanTree*) [clone .constprop.0]
+0012ba58 000000ec t lodepng_add_text_sized(LodePNGInfo*, char const*, char const*, unsigned int)
+0012bb44 00000150 t readChunk_tEXt(LodePNGInfo*, unsigned char const*, unsigned int)
+0012bc94 00000820 t encodeLZ77(uivector*, Hash*, unsigned char const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int) [clone .constprop.0]
+0012c4b4 000000c8 t writeBitsReversed(LodePNGBitWriter*, unsigned int, unsigned int)
+0012c57c 000000c8 t lodepng_chunk_init(unsigned char**, ucvector*, unsigned int, char const*)
+0012c644 00000084 t lodepng_get_raw_size_lct(unsigned int, unsigned int, LodePNGColorType, unsigned int)
+0012c6c8 0000034c t filterScanline(unsigned char*, unsigned char const*, unsigned char const*, unsigned int, unsigned int, unsigned char)
+0012ca14 0000037c t getPixelColorRGBA8(unsigned char*, unsigned char*, unsigned char*, unsigned char*, unsigned char const*, unsigned int, LodePNGColorMode const*)
+0012cd90 0000016c t writeBits(LodePNGBitWriter*, unsigned int, unsigned int)
+0012cefc 000000f0 t writeLZ77data(LodePNGBitWriter*, uivector const*, HuffmanTree const*, HuffmanTree const*)
+0012cfec 00000e88 t lodepng_deflatev(ucvector*, unsigned char const*, unsigned int, LodePNGCompressSettings const*)
+0012de74 000009e0 t unfilter(unsigned char*, unsigned char const*, unsigned int, unsigned int, unsigned int)
+0012e854 00000bd8 t lodepng_inflatev(ucvector*, unsigned char const*, unsigned int, LodePNGDecompressSettings const*)
+0012f42c 0000017c t lodepng_zlib_decompressv(ucvector*, unsigned char const*, unsigned int, LodePNGDecompressSettings const*)
+0012f5a8 000000bc t zlib_decompress(unsigned char**, unsigned int*, unsigned int, unsigned char const*, unsigned int, LodePNGDecompressSettings const*)
+0012f664 00000128 t readChunk_zTXt(LodePNGInfo*, LodePNGDecompressSettings const*, unsigned char const*, unsigned int)
+0012f78c 000002fc t readChunk_iTXt(LodePNGInfo*, LodePNGDecompressSettings const*, unsigned char const*, unsigned int)
+0012fa88 0000014c t readChunk_iCCP(LodePNGInfo*, LodePNGDecompressSettings const*, unsigned char const*, unsigned int)
+0012fbd4 000001d8 T lodepng_zlib_compress(unsigned char**, unsigned int*, unsigned char const*, unsigned int, LodePNGCompressSettings const*)
+0012fdac 00000784 t filter(unsigned char*, unsigned char const*, unsigned int, unsigned int, LodePNGColorMode const*, LodePNGEncoderSettings const*) [clone .isra.0]
+00130530 000006d0 t preProcessScanlines(unsigned char**, unsigned int*, unsigned char const*, unsigned int, unsigned int, LodePNGInfo const*, LodePNGEncoderSettings const*)
+00130c00 00000054 T lodepng_crc32(unsigned char const*, unsigned int)
+00130c54 00000074 T lodepng_chunk_type_equals(unsigned char const*, char const*)
+00130cc8 00000070 T lodepng_chunk_check_crc(unsigned char const*)
+00130d38 00000098 T lodepng_chunk_generate_crc(unsigned char*)
+00130dd0 000000b8 t addChunk_PLTE(ucvector*, LodePNGColorMode const*)
+00130e88 0000012c t addChunk_tEXt(ucvector*, char const*, char const*)
+00130fb4 00000090 T lodepng_chunk_append(unsigned char**, unsigned int*, unsigned char const*)
+00131044 0000008c t addUnknownChunks(ucvector*, unsigned char*, unsigned int)
+001310d0 000000b0 T lodepng_color_mode_copy(LodePNGColorMode*, LodePNGColorMode const*)
+00131180 00000090 T lodepng_palette_add(LodePNGColorMode*, unsigned char, unsigned char, unsigned char, unsigned char)
+00131210 00000058 T lodepng_can_have_alpha(LodePNGColorMode const*)
+00131268 000000a0 T lodepng_info_init(LodePNGInfo*)
+00131308 00000070 T lodepng_info_cleanup(LodePNGInfo*)
+00131378 0000028c T lodepng_info_copy(LodePNGInfo*, LodePNGInfo const*)
+00131604 00000f30 T lodepng_convert(unsigned char*, unsigned char const*, LodePNGColorMode const*, LodePNGColorMode const*, unsigned int, unsigned int)
+00132534 00000198 T lodepng_convert_rgb(unsigned int*, unsigned int*, unsigned int*, unsigned int, unsigned int, unsigned int, LodePNGColorMode const*, LodePNGColorMode const*)
+001326cc 00000980 T lodepng_compute_color_stats(LodePNGColorStats*, unsigned char const*, unsigned int, unsigned int, LodePNGColorMode const*)
+0013304c 00000200 T lodepng_inspect(unsigned int*, unsigned int*, LodePNGState*, unsigned char const*, unsigned int)
+0013324c 0000117c T lodepng_decode(unsigned char**, unsigned int*, unsigned int*, LodePNGState*, unsigned char const*, unsigned int)
+001343c8 000000c8 T lodepng_state_init(LodePNGState*)
+00134490 00001960 T lodepng_encode(unsigned char**, unsigned int*, unsigned char const*, unsigned int, unsigned int, LodePNGState*)
+00135df0 00000020 T lodepng_error_text(unsigned int)
+00135e10 00000024 t CreateBaseAmbientLight() [clone .part.0]
+00135e34 000000e4 T CreateDirectLight()
+00135f18 000000d8 T CreatePointLight()
+00135ff0 0000011c T CreateSpotLight()
+00136110 0000011c T CreateSpotSoftLight()
+0013622c 0000025c T CreateTestScene(rw::World*)
+00136488 00000100 t InitRW() [clone .part.0]
+00136588 0000058c T Gui()
+00136b14 00000158 T Draw(float)
+00136c6c 0000018c T AppEventHandler(sk::Event, void*)
+00136df8 00000140 T sk::InitRW()
+00136f38 000000b8 T sk::CameraCreate(long, long, long)
+00136ff0 00000080 T sk::CameraSize(rw::Camera*, rw::Rect*)
+00137070 00000060 T sk::EventHandler(sk::Event, void*)
+001370d0 00000260 T main
+00137330 00000004 T sk::SetMousePosition(int, int)
+00137334 000000d0 t ImGui_ImplRW_CreateFontsTexture()
+00137404 00000314 T ImGui_ImplRW_RenderDrawLists(ImDrawData*)
+00137718 000000b8 T ImGui_ImplRW_Init()
+001377d0 000000c8 T ImGui_ImplRW_NewFrame(float)
+00137898 000000c0 T ImGuiEventHandler(sk::Event, void*)
+00137958 00000024 t rect_original_order(void const*, void const*)
+0013797c 000000bc t stbtt__find_table(unsigned char*, unsigned int, char const*)
+00137a38 000000f0 t stbtt__close_shape(stbtt_vertex*, int, int, int, int, int, int, int, int, int)
+00137b28 000000b0 t stbtt__track_vertex(stbtt__csctx*, int, int)
+00137bd8 000000d8 t stbtt__csctx_rccurve_to(stbtt__csctx*, float, float, float, float, float, float)
+00137cb0 0000024c t stbtt__sort_edges_quicksort(stbtt__edge*, int)
+00137efc 00000108 t stbtt__GetGlyfOffset(stbtt_fontinfo const*, int)
+00138004 000001ec t stbtt__tesselate_cubic(stbtt__point*, int*, float, float, float, float, float, float, float, float, float, int)
+001381f0 00000040 t rect_height_compare(void const*, void const*)
+00138230 00000074 t stb__lit(unsigned char*, unsigned int)
+001382a4 0000007c t stb__match(unsigned char*, unsigned int)
+00138320 00000074 t stbtt__buf_get(stbtt__buf*, int)
+00138394 00000024 t stbtt__buf_seek(stbtt__buf*, int) [clone .part.0]
+001383b8 000002a8 t stbtt__handle_clipped_edge(float*, int, stbtt__active_edge*, float, float, float, float) [clone .part.0]
+00138660 00000024 t ImVector<ImDrawCmd>::back() [clone .part.0]
+00138684 00000024 t ImVector<void*>::back() [clone .part.0]
+001386a8 00000028 t ImVector<unsigned short>::operator[](int) [clone .part.0]
+001386d0 00000028 t ImVector<float>::operator[](int) [clone .part.0]
+001386f8 00000024 t ImVector<ImFontGlyph>::back() [clone .part.0]
+0013871c 00000028 t ImDrawList::PopTextureID() [clone .part.0]
+00138744 0000010c t stbrp__skyline_find_min_y(stbrp_context*, stbrp_node*, int, int, int*) [clone .constprop.0]
+00138850 00000500 t stbrp_pack_rects
+00138d50 0000013c t stbtt__tesselate_curve(stbtt__point*, int*, float, float, float, float, float, float, float, int) [clone .isra.0]
+00138e8c 000003c8 t stbtt_FindGlyphIndex.isra.0
+00139254 00000090 t stbtt__csctx_rline_to(stbtt__csctx*, float, float)
+001392e4 0000009c t stbtt__csctx_close_shape(stbtt__csctx*)
+00139380 0000009c t stbtt__csctx_rmove_to(stbtt__csctx*, float, float)
+0013941c 00000138 t stbtt__cff_get_index(stbtt__buf*)
+00139554 00000164 t stbtt__cff_index_get(stbtt__buf, int)
+001396b8 00000130 t stbtt__cff_int(stbtt__buf*)
+001397e8 00000194 t stbtt__dict_get(stbtt__buf*, int)
+0013997c 00000134 t stbtt__get_subrs(stbtt__buf, stbtt__buf)
+00139ab0 00000bac t stbtt__run_charstring(stbtt_fontinfo const*, int, stbtt__csctx*)
+0013a65c 000000d0 t stbtt__GetGlyphShapeT2(stbtt_fontinfo const*, int, stbtt_vertex**)
+0013a72c 000008f8 t stbtt__GetGlyphShapeTT(stbtt_fontinfo const*, int, stbtt_vertex**)
+0013b024 000001d8 t stbtt_GetGlyphBitmapBoxSubpixel.constprop.0
+0013b1fc 000003fc T ImGui::StyleColorsClassic(ImGuiStyle*)
+0013b5f8 000000cc T ImDrawListSharedData::ImDrawListSharedData()
+0013b5f8 000000cc T ImDrawListSharedData::ImDrawListSharedData()
+0013b6c4 0000020c T ImDrawList::Clear()
+0013b8d0 000001e0 T ImDrawList::ClearFreeMemory()
+0013bab0 0000014c T ImDrawList::AddDrawCmd()
+0013bbfc 000000fc T ImDrawList::UpdateClipRect()
+0013bcf8 000000f0 T ImDrawList::UpdateTextureID()
+0013bde8 00000160 T ImDrawList::PushClipRect(ImVec2, ImVec2, bool)
+0013bf48 0000002c T ImDrawList::PushClipRectFullScreen()
+0013bf74 0000003c T ImDrawList::PopClipRect()
+0013bfb0 000000b0 T ImDrawList::PushTextureID(void* const&)
+0013c060 00000020 T ImDrawList::PopTextureID()
+0013c080 000000e0 T ImDrawList::ChannelsSetCurrent(int)
+0013c160 000002f8 T ImDrawList::ChannelsMerge()
+0013c458 0000014c T ImDrawList::PrimReserve(int, int)
+0013c5a4 000000c8 T ImDrawList::PrimRect(ImVec2 const&, ImVec2 const&, unsigned int)
+0013c66c 000000e0 T ImDrawList::PrimRectUV(ImVec2 const&, ImVec2 const&, ImVec2 const&, ImVec2 const&, unsigned int)
+0013c74c 00000a64 T ImDrawList::AddPolyline(ImVec2 const*, int, unsigned int, bool, float)
+0013d1b0 00000448 T ImDrawList::AddConvexPolyFilled(ImVec2 const*, int, unsigned int)
+0013d5f8 0000022c T ImDrawList::PathArcToFast(ImVec2 const&, float, int, int)
+0013d824 00000214 T ImDrawList::PathArcTo(ImVec2 const&, float, float, float, int)
+0013da38 000004b8 T ImDrawList::PathRect(ImVec2 const&, ImVec2 const&, float, int)
+0013def0 000001fc T ImDrawList::AddLine(ImVec2 const&, ImVec2 const&, unsigned int, float)
+0013e0ec 000000e4 T ImDrawList::AddRect(ImVec2 const&, ImVec2 const&, unsigned int, float, int, float)
+0013e1d0 000000bc T ImDrawList::AddRectFilled(ImVec2 const&, ImVec2 const&, unsigned int, float, int)
+0013e28c 000002a4 T ImDrawList::AddTriangleFilled(ImVec2 const&, ImVec2 const&, ImVec2 const&, unsigned int)
+0013e530 000000dc T ImDrawList::AddCircle(ImVec2 const&, float, unsigned int, int, float)
+0013e60c 000000b0 T ImDrawList::AddCircleFilled(ImVec2 const&, float, unsigned int, int)
+0013e6bc 0000018c T ImDrawList::AddImage(void*, ImVec2 const&, ImVec2 const&, ImVec2 const&, ImVec2 const&, unsigned int)
+0013e848 00000060 T ImFontAtlas::ImFontAtlas()
+0013e848 00000060 T ImFontAtlas::ImFontAtlas()
+0013e8a8 0000012c T ImFontAtlas::ClearInputData()
+0013e9d4 000000d8 T ImFontAtlas::CalcCustomRectUV(ImFontAtlas::CustomRect const*, ImVec2*, ImVec2*)
+0013eaac 000001b4 T ImFontAtlasBuildPackCustomRects(ImFontAtlas*, void*)
+0013ec60 0000009c T ImFont::ClearOutputData()
+0013ecfc 00000058 T ImFont::ImFont()
+0013ecfc 00000058 T ImFont::ImFont()
+0013ed54 00000044 T ImFont::~ImFont()
+0013ed54 00000044 T ImFont::~ImFont()
+0013ed98 000000a8 T ImFontAtlas::ClearFonts()
+0013ee40 00000078 T ImFontAtlas::~ImFontAtlas()
+0013ee40 00000078 T ImFontAtlas::~ImFontAtlas()
+0013eeb8 0000033c T ImFontAtlas::AddFont(ImFontConfig const*)
+0013f1f4 000000fc T ImFontAtlas::AddFontFromMemoryTTF(void*, int, float, ImFontConfig const*, unsigned short const*)
+0013f2f0 00000434 T ImFontAtlas::AddFontFromMemoryCompressedTTF(void const*, int, float, ImFontConfig const*, unsigned short const*)
+0013f724 00000138 T ImFontAtlas::AddFontFromMemoryCompressedBase85TTF(char const*, float, ImFontConfig const*, unsigned short const*)
+0013f85c 000000fc T ImFontAtlas::AddFontDefault(ImFontConfig const*)
+0013f958 00000188 T ImFont::GrowIndex(int)
+0013fae0 00000464 T ImFont::BuildLookupTable()
+0013ff44 00000184 T ImFont::AddGlyph(unsigned short, float, float, float, float, float, float, float, float, float)
+001400c8 00000420 T ImFontAtlasBuildFinish(ImFontAtlas*)
+001404e8 000030a8 t ImFontAtlasBuildWithStbTruetype(ImFontAtlas*) [clone .part.0]
+00143590 00000174 T ImFontAtlasBuildWithStbTruetype(ImFontAtlas*)
+00143704 000000d4 T ImFontAtlas::GetTexDataAsRGBA32(unsigned char**, int*, int*, int*)
+001437d8 00000040 T ImFont::FindGlyph(unsigned short) const
+00143818 000001ac T ImFont::CalcWordWrapPositionA(float, char const*, char const*, float) const
+001439c4 00000210 T ImFont::CalcTextSizeA(float, float, float, char const*, char const*, char const**) const
+00143bd4 00000650 T ImFont::RenderText(ImDrawList*, float, ImVec2, unsigned int, ImVec4 const&, char const*, char const*, float, bool) const
+00144224 000001ac T ImDrawList::AddText(ImFont const*, float, ImVec2 const&, unsigned int, char const*, char const*, float, ImVec4 const*)
+001443d0 00000148 t _GLOBAL__sub_I__ZN5ImGui18StyleColorsClassicEP10ImGuiStyle
+00144518 0000008c t _GLOBAL__sub_I__ZN8ImGuizmo21FPU_MatrixF_x_MatrixFEPKfS1_Pf
+001445a4 00000040 t ChildWindowComparer(void const*, void const*)
+001445e4 0000009c t GetVisibleRect()
+00144680 0000006c t CalcSizeContents(ImGuiWindow*)
+001446ec 00000020 t GetClipboardTextFn_DefaultImpl(void*)
+0014470c 00000004 t ImeSetInputScreenPosFn_DefaultImpl(int, int)
+00144710 00000110 t GetBorderRect(ImGuiWindow*, int, float, float)
+00144820 000000d8 t SetCurrentFont(ImFont*)
+001448f8 000002f8 t DataTypeApplyOpFromText(char const*, char const*, ImGuiDataType, void*, char const*)
+00144bf0 000000e0 t SettingsHandlerWindow_ReadLine(ImGuiContext&, void*, char const*)
+00144cd0 00000188 t InputTextFilterCharacter(unsigned int*, int, int (*)(ImGuiTextEditCallbackData*), void*)
+00144e58 00000028 t GetStyleVarInfo(int) [clone .part.0]
+00144e80 000000ac t ImGuiStb::stb_textedit_discard_undo(ImGuiStb::StbUndoState*) [clone .part.0]
+00144f2c 000000cc t ImGuiStb::stb_text_createundo(ImGuiStb::StbUndoState*, int, int, int)
+00144ff8 00000088 t ImGui::RoundScalar(float, int) [clone .part.0]
+00145080 00000028 t ImVector<char>::operator[](int) [clone .part.0]
+001450a8 00000024 t ImVector<unsigned int>::back() [clone .part.0]
+001450cc 00000028 t ImVector<ImGuiWindow*>::operator[](int) [clone .part.0]
+001450f4 00000024 t ImVector<ImVec4>::back() [clone .part.0]
+00145118 00000028 t ImVector<ImDrawList*>::operator[](int) [clone .part.0]
+00145140 00000028 t ImVector<ImGuiPopupRef>::operator[](int) [clone .part.0]
+00145168 00000024 t ImVector<ImGuiWindow*>::back() [clone .part.0]
+0014518c 00000028 t ImVector<float>::pop_back() [clone .part.0]
+001451b4 00000028 t ImVector<unsigned short>::operator[](int) const [clone .part.0]
+001451dc 00000028 t ImVector<unsigned short>::operator[](int) [clone .part.0]
+00145204 0000007c t ImGuiStb::STB_TEXTEDIT_GETWIDTH(ImGuiTextEditState*, int, int)
+00145280 00000024 t ImVector<ImGuiGroupData>::back() [clone .part.0]
+001452a4 00000028 t ImVector<ImGuiColumnData>::operator[](int) [clone .part.0]
+001452cc 00000028 t ImVector<ImGuiStorage::Pair>::insert(ImGuiStorage::Pair const*, ImGuiStorage::Pair const&) [clone .part.0]
+001452f4 000000f4 t InputTextCalcTextSizeW(unsigned short const*, unsigned short const*, unsigned short const**, ImVec2*, bool) [clone .constprop.0]
+001453e8 0000005c t ImGuiStb::stb_textedit_clamp(ImGuiTextEditState*, ImGuiStb::STB_TexteditState*) [clone .isra.0]
+00145444 00000064 t ImGuiStb::STB_TEXTEDIT_LAYOUTROW(ImGuiStb::StbTexteditRow*, ImGuiTextEditState*, int) [clone .isra.0]
+001454a8 00000194 t ImGuiStb::stb_textedit_find_charpos(ImGuiStb::StbFindState*, ImGuiTextEditState*, int, int)
+0014563c 00000398 t FindBestWindowPosForPopup(ImVec2 const&, ImVec2 const&, ImGuiDir*, ImRect const&, ImGuiPopupPositionPolicy)
+001459d4 00000108 t ImGuiStb::is_word_boundary_from_right(ImGuiTextEditState*, int) [clone .part.0]
+00145adc 000001e4 t CalcSizeAfterConstraint(ImGuiWindow*, ImVec2)
+00145cc0 00000140 t CalcSizeAutoFit(ImGuiWindow*, ImVec2 const&)
+00145e00 000000d0 t CalcResizePosSizeFromAnyCorner(ImGuiWindow*, ImVec2 const&, ImVec2 const&, ImVec2*, ImVec2*) [clone .isra.0]
+00145ed0 00000188 t ImGuiStb::stb_text_locate_coord(ImGuiTextEditState*, float, float)
+00146058 00000134 t SetClipboardTextFn_DefaultImpl(void*, char const*)
+0014618c 00000180 t AddWindowToSortedBuffer(ImVector<ImGuiWindow*>&, ImGuiWindow*)
+0014630c 00000190 t SaveIniSettingsToDisk(char const*)
+0014649c 00000240 t AddDrawListToRenderList(ImVector<ImDrawList*>&, ImDrawList*)
+001466dc 0000006c t AddWindowToRenderList(ImVector<ImDrawList*>&, ImGuiWindow*)
+00146748 00000138 T ImGuiStyle::ImGuiStyle()
+00146748 00000138 T ImGuiStyle::ImGuiStyle()
+00146880 000001ac T ImGuiIO::ImGuiIO()
+00146880 000001ac T ImGuiIO::ImGuiIO()
+00146a2c 000004e8 W ImGuiContext::ImGuiContext()
+00146a2c 000004e8 W ImGuiContext::ImGuiContext()
+00146f14 00000064 T ImGuiIO::AddInputCharacter(unsigned short)
+00146f78 00000050 T ImFormatString(char*, unsigned int, char const*, ...)
+00146fc8 00000120 T ImHash(void const*, int, unsigned int)
+001470e8 000001d4 t AddWindowSettings(char const*)
+001472bc 00000230 T ImTextCharFromUtf8(unsigned int*, char const*, char const*)
+001474ec 000000d0 T ImTextStrFromUtf8(unsigned short*, int, char const*, char const*, char const**)
+001475bc 0000008c T ImTextCountCharsFromUtf8(char const*, char const*)
+00147648 0000015c T ImTextStrToUtf8(char*, int, unsigned short const*, unsigned short const*)
+001477a4 00000090 T ImTextCountUtf8BytesFromStr(unsigned short const*, unsigned short const*)
+00147834 00000074 t ImGuiStb::STB_TEXTEDIT_DELETECHARS(ImGuiTextEditState*, int, int)
+001478a8 000000b8 t ImGuiStb::stb_textedit_delete(ImGuiTextEditState*, ImGuiStb::STB_TexteditState*, int, int)
+00147960 000000ec t ImGuiStb::stb_textedit_delete_selection(ImGuiTextEditState*, ImGuiStb::STB_TexteditState*)
+00147a4c 000000fc t ImGuiStb::STB_TEXTEDIT_INSERTCHARS(ImGuiTextEditState*, int, unsigned short const*, int)
+00147b48 0000117c t ImGuiStb::stb_textedit_key(ImGuiTextEditState*, ImGuiStb::STB_TexteditState*, int)
+00148cc4 000000f4 T ImGui::ColorConvertFloat4ToU32(ImVec4 const&)
+00148db8 0000016c T ImFileLoadToMemory(char const*, char const*, int*, int)
+00148f24 0000019c T ImGuiStorage::SetVoidPtr(unsigned int, void*)
+001490c0 000001c4 T ImGuiTextBuffer::appendfv(char const*, std::__va_list)
+00149284 0000002c T ImGuiTextBuffer::appendf(char const*, ...)
+001492b0 000000d4 T ImGuiSimpleColumns::Update(int, float, bool)
+00149384 00000554 T ImGuiWindow::ImGuiWindow(ImGuiContext*, char const*)
+00149384 00000554 T ImGuiWindow::ImGuiWindow(ImGuiContext*, char const*)
+001498d8 000000d8 T ImGuiWindow::GetID(void const*)
+001499b0 00000054 T ImGui::SetActiveID(unsigned int, ImGuiWindow*)
+00149a04 00000108 T ImGui::ItemSize(ImVec2 const&, float)
+00149b0c 00000128 T ImGui::IsItemHovered(int)
+00149c34 000000ac T ImGui::IsClippedEx(ImRect const&, unsigned int, bool)
+00149ce0 00000020 T ImGui::MemAlloc(unsigned int)
+00149d00 00000024 T ImGui::MemFree(void*)
+00149d24 0000002c T ImGui::GetClipboardText()
+00149d50 00000024 T ImGui::SetClipboardText(char const*)
+00149d74 0000040c W ImGuiContext::~ImGuiContext()
+00149d74 0000040c W ImGuiContext::~ImGuiContext()
+0014a180 00000014 T ImGui::GetIO()
+0014a194 00000018 T ImGui::GetStyle()
+0014a1ac 00000598 T ImGui::Initialize()
+0014a744 00000084 T ImGui::FindWindowSettings(unsigned int)
+0014a7c8 00000274 t SettingsHandlerWindow_WriteAll(ImGuiContext&, ImGuiTextBuffer*)
+0014aa3c 00000030 t SettingsHandlerWindow_ReadOpen(ImGuiContext&, char const*)
+0014aa6c 00000088 T ImGui::PushClipRect(ImVec2 const&, ImVec2 const&, bool)
+0014aaf4 0000006c T ImGui::PopClipRect()
+0014ab60 0000007c T ImGui::LogText(char const*, ...)
+0014abdc 00000188 t LogRenderedText(ImVec2 const*, char const*, char const*)
+0014ad64 00000144 T ImGui::RenderText(ImVec2, char const*, char const*, bool)
+0014aea8 00000170 T ImGui::RenderFrame(ImVec2, ImVec2, unsigned int, bool, float)
+0014b018 000001c0 T ImGui::RenderTriangle(ImVec2, ImGuiDir, float)
+0014b1d8 00000118 T ImGui::CalcTextSize(char const*, char const*, bool, float)
+0014b2f0 00000310 T ImGui::RenderTextClipped(ImVec2 const&, ImVec2 const&, char const*, char const*, ImVec2 const*, ImVec2 const&, ImRect const*)
+0014b600 000000d8 T ImGui::IsMouseHoveringRect(ImVec2 const&, ImVec2 const&, bool)
+0014b6d8 000000f4 T ImGui::ItemAdd(ImRect const&, unsigned int)
+0014b7cc 00000118 T ImGui::ItemHoverable(ImRect const&, unsigned int)
+0014b8e4 000000b4 T ImGui::GetKeyPressedAmount(int, float, float)
+0014b998 000000a8 t IsKeyPressedMap(int, bool)
+0014ba40 000000ec T ImGui::FocusableItemRegister(ImGuiWindow*, unsigned int, bool)
+0014bb2c 000000e8 T ImGui::IsMouseClicked(int, bool)
+0014bc14 00000088 T ImGui::FindWindowByName(char const*)
+0014bc9c 00000198 T ImGui::BringWindowToFront(ImGuiWindow*)
+0014be34 000000a8 T ImGui::FocusWindow(ImGuiWindow*)
+0014bedc 00000118 t ClosePopupToLevel(int)
+0014bff4 00000108 t CloseInactivePopups(ImGuiWindow*)
+0014c0fc 00000054 T ImGui::PopItemWidth()
+0014c150 00000154 T ImGui::PushFont(ImFont*)
+0014c2a4 000000cc T ImGui::PopFont()
+0014c370 00000138 T ImGui::PushStyleColor(int, ImVec4 const&)
+0014c4a8 00000090 T ImGui::PopStyleColor(int)
+0014c538 00000160 T ImGui::PushStyleVar(int, float)
+0014c698 0000016c T ImGui::PushStyleVar(int, ImVec2 const&)
+0014c804 00000140 T ImGui::PopStyleVar(int)
+0014c944 00000040 T ImGui::GetScrollMaxY()
+0014c984 000006a0 T ImGui::ButtonBehavior(ImRect const&, unsigned int, bool*, bool*, int)
+0014d024 000006d4 T ImGui::Scrollbar(int)
+0014d6f8 00000260 T ImGui::CloseButton(unsigned int, ImVec2 const&, float)
+0014d958 0000019c T ImGui::LogFinish()
+0014daf4 00000120 T ImGui::PushID(char const*)
+0014dc14 00003974 T ImGui::Begin(char const*, bool*, int)
+00151588 000010bc T ImGui::NewFrame()
+00152644 000000e8 T ImGui::ParseFormatPrecision(char const*, int)
+0015272c 000005f0 T ImGui::SliderBehavior(ImRect const&, unsigned int, float*, float, float, float, int, int)
+00152d1c 00000094 T ImGui::Dummy(ImVec2 const&)
+00152db0 00000198 T ImGui::BeginGroup()
+00152f48 0000022c T ImGui::EndGroup()
+00153174 000000b4 T ImGui::SameLine(float, float)
+00153228 000004b4 T ImGui::RadioButton(char const*, bool)
+001536dc 0000002c T ImGui::RadioButton(char const*, int*, int)
+00153708 0000009c T ImGui::GetColumnOffset(int)
+001537a4 00000074 T ImGui::GetContentRegionAvail()
+00153818 000001b4 t BeginChildEx(char const*, unsigned int, ImVec2 const&, bool, int) [clone .isra.0]
+001539cc 00000078 T ImGui::BeginChildFrame(unsigned int, ImVec2 const&, int)
+00153a44 00000150 T ImGui::CalcItemSize(ImVec2, float, float)
+00153b94 000001e0 T ImGui::SetColumnOffset(int, float)
+00153d74 00000404 T ImGui::EndColumns()
+00154178 00000214 T ImGui::End()
+0015438c 00000128 T ImGui::EndChild()
+001544b4 00000508 T ImGui::EndFrame()
+001549bc 00000570 T ImGui::Render()
+00154f2c 000000c0 W ImVector<char>::resize(int)
+00154fec 00002bec T ImGui::InputTextEx(char const*, char*, int, ImVec2 const&, int, int (*)(ImGuiTextEditCallbackData*), void*)
+00157bd8 0000027c T ImGui::InputScalarAsWidgetReplacement(ImRect const&, char const*, ImGuiDataType, void*, unsigned int, int)
+00157e54 00000468 T ImGui::SliderFloat(char const*, float*, float, float, char const*, float)
+001582bc 000000ac t _GLOBAL__sub_I_GImGui
+00158368 00000020 t _GLOBAL__sub_D_GImGui
+00158388 00000004 W C3Di_LightEnvUpdate
+0015838c 00000004 W C3Di_LightEnvDirty
+00158390 00000004 W C3Di_ProcTexUpdate
+00158394 00000004 W C3Di_ProcTexDirty
+00158398 000000b4 t C3Di_AptEventHook
+0015844c 00000004 W C3Di_GasUpdate
+00158450 000001e0 T C3D_Init
+00158630 00000098 T C3D_SetViewport
+001586c8 000004ec T C3Di_UpdateContext
+00158bb4 000000e0 T C3Di_SplitFrame
+00158c94 00000108 T C3D_BindProgram
+00158d9c 00000060 T C3D_FixedAttribGetWritePtr
+00158dfc 0000004c t onVBlank0
+00158e48 0000004c t onVBlank1
+00158e94 000000f4 t onQueueFinish
+00158f88 00000038 T C3Di_RenderQueueEnableVBlank
+00158fc0 00000030 T C3Di_RenderQueueDisableVBlank
+00158ff0 00000060 T C3Di_RenderQueueInit
+00159050 00000034 T C3Di_RenderQueueWaitDone
+00159084 000000e4 T C3D_FrameBegin
+00159168 00000058 T C3D_FrameSplit
+001591c0 000001d8 T C3D_FrameEnd
+00159398 000000f0 T C3D_SyncDisplayTransfer
+00159488 000002a0 T C3D_TexInitWithParams
+00159728 00000044 T C3D_TexBind
+0015976c 0000016c T C3Di_SetTex
+001598d8 0000001c T C3D_CalcDepthBufSize
+001598f4 00000044 T C3D_SetFrameBuf
+00159938 0000009c T C3D_FrameBufTex
+001599d4 0000016c T C3Di_FrameBufBind
+00159b40 000000cc T C3D_FrameBufClear
+00159c0c 00000044 T C3D_FrameBufTransfer
+00159c50 000000b8 T FogLut_FromArray
+00159d08 000000b8 T FogLut_Exp
+00159dc0 00000058 T C3D_FogGasMode
+00159e18 00000020 T C3D_FogColor
+00159e38 00000030 T C3D_FogLutBind
+00159e68 00000034 T C3D_GetTexEnv
+00159e9c 00000024 T C3Di_TexEnvBind
+00159ec0 00000218 T C3D_DrawElements
+0015a0d8 00000024 T BufInfo_Init
+0015a0fc 00000080 T BufInfo_Add
+0015a17c 00000040 T C3D_SetBufInfo
+0015a1bc 00000048 T C3Di_BufInfoBind
+0015a204 00000040 T C3D_DepthMap
+0015a244 0000001c T C3D_CullFace
+0015a260 00000040 T C3D_StencilTest
+0015a2a0 00000024 T C3D_StencilOp
+0015a2c4 0000001c T C3D_BlendingColor
+0015a2e0 00000024 T C3D_EarlyDepthTest
+0015a304 0000002c T C3D_DepthTest
+0015a330 0000002c T C3D_AlphaTest
+0015a35c 00000050 T C3D_AlphaBlend
+0015a3ac 00000030 T C3D_FragOpMode
+0015a3dc 00000044 T C3D_FragOpShadow
+0015a420 000001ac T C3Di_EffectBind
+0015a5cc 00000028 T AttrInfo_Init
+0015a5f4 00000098 T AttrInfo_AddLoader
+0015a68c 00000060 T AttrInfo_AddFixed
+0015a6ec 00000054 T C3D_SetAttrInfo
+0015a740 00000080 T C3Di_AttrInfoBind
+0015a7c0 000000b8 T C3D_ImmDrawBegin
+0015a878 000000a8 T C3D_ImmSendAttrib
+0015a920 00000070 T C3D_ImmDrawEnd
+0015a990 0000029c T C3D_UpdateUniforms
+0015ac2c 000000c0 T C3Di_DirtyUniforms
+0015acec 000000d8 T C3Di_LoadShaderUniforms
+0015adc4 00000028 T C3Di_ClearShaderUniforms
+0015adec 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
+0015ae10 00000004 t addrMapNodeDestructor(rbtree_node*)
+0015ae14 00000114 T vramMemAlign
+0015af28 00000008 T vramAlloc
+0015af30 0000005c T vramFree
+0015af8c 00000024 t addrMapNodeComparator(rbtree_node const*, rbtree_node const*)
+0015afb0 00000004 t addrMapNodeDestructor(rbtree_node*)
+0015afb4 00000120 T linearMemAlign
+0015b0d4 00000008 T linearAlloc
+0015b0dc 0000005c T linearFree
+0015b138 0000000c T linearSpaceFree
+0015b144 00000084 T MemPool::CoalesceRight(MemBlock*)
+0015b1c8 00000170 T MemPool::Allocate(MemChunk&, unsigned long, int)
+0015b338 000000fc T MemPool::Deallocate(MemChunk const&)
+0015b434 00000030 T MemPool::GetFreeSpace()
+0015b464 00000074 T osConvertVirtToPhys
+0015b4d8 00000054 T osGetTimeRef
+0015b52c 000000e4 T osGetTime
+0015b610 00000074 T __libctru_gtod
+0015b688 00000038 T osTickCounterRead
+0015b6c0 00000034 T __ctru_speedup_config
+0015b6f4 000000d0 t gfxPresentFramebuffer
+0015b7c4 000000ec T gfxSetScreenFormat
+0015b8b0 00000108 T gfxInit
+0015b9b8 00000010 T gfxInitDefault
+0015b9c8 000000b4 T gfxExit
+0015ba7c 000000a0 T gfxGetFramebuffer
+0015bb1c 00000030 T gfxScreenSwapBuffers
+0015bb4c 00000050 T gfxSwapBuffers
+0015bb9c 0000000c t _gdbHioDevFstat
+0015bba8 00000008 t _gdbHioDevLseek
+0015bbb0 00000010 t _gdbHioDevRead
+0015bbc0 00000010 t _gdbHioDevWrite
+0015bbd0 00000054 t _gdbHioDevClose
+0015bc24 00000030 t _gdbHioDevUnlink
+0015bc54 00000038 t _gdbHioDevStat
+0015bc8c 00000050 t _gdbHioDevRename
+0015bcdc 0000004c t _gdbHioDevOpen
+0015bd28 00000034 T gdbHioDevInit
+0015bd5c 000001f8 T gdbHioDevRedirectStdStreams
+0015bf54 000001e0 T shaderInstanceInit
+0015c134 0000001c T shaderProgramInit
+0015c150 00000064 T shaderProgramFree
+0015c1b4 00000080 T shaderProgramSetVsh
+0015c234 000008c0 T shaderProgramConfigure
+0015caf4 000001f8 t DVLE_GenerateOutmap.part.0
+0015ccec 000001cc T DVLB_ParseFile
+0015ceb8 00000010 T GX_BindQueue
+0015cec8 00000078 T GX_ProcessCommandList
+0015cf40 00000074 T GX_MemoryFill
+0015cfb4 00000070 T GX_DisplayTransfer
+0015d024 00000068 t gxCmdQueueDoCommands.part.0
+0015d08c 000000c8 T gxCmdQueueInterrupt
+0015d154 0000004c T gxCmdQueueClear
+0015d1a0 000000f8 T gxCmdQueueAdd
+0015d298 00000080 T gxCmdQueueRun
+0015d318 00000060 T gxCmdQueueStop
+0015d378 00000074 T gxCmdQueueWait
+0015d3ec 0000013c T GPUCMD_Add
+0015d528 000000ac T GPUCMD_Split
+0015d5d4 00000040 T f32tof16
+0015d614 00000040 T f32tof24
+0015d654 00000044 T f32tof31
+0015d698 00000c58 t gspHardwareInit
+0015e2f0 00000254 T gspInit
+0015e544 000000f0 T gspExit
+0015e634 00000010 T gspHasGpuRight
+0015e644 00000098 T gspPresentBuffer
+0015e6dc 00000030 T gspSetEventCallback
+0015e70c 00000050 T gspWaitForEvent
+0015e75c 0000004c T gspWaitForAnyEvent
+0015e7a8 00000160 t gspEventThreadMain
+0015e908 00000130 T gspSubmitGxCommand
+0015ea38 00000050 T GSPGPU_FlushDataCache
+0015ea88 00000034 T GSPGPU_SetLcdForceBlack
+0015eabc 00000068 T GSPGPU_AcquireRight
+0015eb24 00000048 T GSPGPU_ReleaseRight
+0015eb6c 0000007c T GSPGPU_ImportDisplayCaptureInfo
+0015ebe8 0000002c T GSPGPU_SaveVramSysArea
+0015ec14 0000002c T GSPGPU_RestoreVramSysArea
+0015ec40 000001b0 t aptConvertScreenForCapture
+0015edf0 00000008 W aptDspSleep
+0015edf8 00000004 W aptDspWakeup
+0015edfc 00000004 W aptDspCancel
+0015ee00 0000015c T aptSendCommand
+0015ef5c 00000038 t aptExitProcess
+0015ef94 000002f0 T aptExit
+0015f284 000000d8 T aptHandleSleep
+0015f35c 00000030 T aptHook
+0015f38c 00000084 T APT_SleepIfShellClosed
+0015f410 00000084 T aptSetSleepAllowed
+0015f494 00000084 T APT_UnlockTransition
+0015f518 00000484 t aptEventHandler
+0015f99c 000000b0 T APT_ReceiveParameter
+0015fa4c 000000b0 t aptReceiveParameter.constprop.0
+0015fb00 000002bc t aptScreenTransfer
+0015fdbc 000002d0 t aptWaitForWakeUp.isra.0
+0016008c 000000f8 T aptJumpToHomeMenu
+00160184 0000004c T aptMainLoop
+001601d0 00000234 T aptInit
+00160404 0000007c T APT_CheckNew3DS
+00160480 00000024 W hidShouldUseIrrst
+001604a4 0000018c T hidInit
+00160630 000000e8 T hidExit
+00160718 00000294 T hidScanInput
+001609ac 00000010 T hidKeysHeld
+001609bc 00000010 T hidKeysDown
+001609cc 00000010 T hidKeysUp
+001609dc 00000018 T hidTouchRead
+001609f4 00000074 T ptmSysmInit
+00160a68 0000003c T ptmSysmExit
+00160aa4 00000034 T PTMSYSM_ConfigureNew3DSCPU
+00160ad8 00000010 T rbtree_init
+00160ae8 000001a0 t do_insert
+00160c88 00000008 T rbtree_insert
+00160c90 00000090 T rbtree_rotate
+00160d20 00000338 T rbtree_remove
+00161058 00000074 T rbtree_find
+001610d0 000001e0 W __system_allocateHeaps
+001612b0 00000038 W __libctru_init
+001612e8 000000f0 W __system_initArgv
+001613d8 T svcControlMemory
+001613f8 T svcQueryMemory
+00161428 T svcExitProcess
+00161430 T svcCreateThread
+00161450 T svcExitThread
+00161458 T svcSleepThread
+00161460 T svcReleaseMutex
+00161468 T svcCreateEvent
+0016147c T svcSignalEvent
+00161484 T svcClearEvent
+0016148c T svcMapMemoryBlock
+00161494 T svcUnmapMemoryBlock
+0016149c T svcCreateAddressArbiter
+001614b0 T svcArbitrateAddressNoTimeout
+001614b8 T svcCloseHandle
+001614c0 T svcWaitSynchronization
+001614c8 T svcWaitSynchronizationN
+001614f0 T svcDuplicateHandle
+00161504 T svcGetSystemTick
+0016150c T svcConnectToPort
+00161520 T svcSendSyncRequest
+00161528 T svcGetResourceLimit
+0016153c T svcGetResourceLimitLimitValues
+00161544 T svcGetResourceLimitCurrentValues
+0016154c T svcBreak
+00161554 T svcOutputDebugString
+0016155c W initSystem
+001615ac W __ctru_exit
+001615c4 0000000c T __sync_init
+001615d0 00000018 T __sync_fini
+001615e8 0000002c T syncArbitrateAddress
+00161614 0000001c T LightLock_Init
+00161630 00000094 T LightLock_Lock
+001616c4 00000044 T LightLock_TryLock
+00161708 00000040 T LightLock_Unlock
+00161748 00000024 T RecursiveLock_Init
+0016176c 00000030 T RecursiveLock_Lock
+0016179c 00000078 T RecursiveLock_TryLock
+00161814 00000054 T RecursiveLock_Unlock
+00161868 00000040 T LightEvent_Init
+001618a8 000000a4 T LightEvent_Clear
+0016194c 000000c8 T LightEvent_Signal
+00161a14 00000058 T LightEvent_TryWait
+00161a6c 000000b0 T LightEvent_Wait
+00161b1c 00000124 T srvInit
+00161c40 00000058 T srvExit
+00161c98 00000080 T srvGetServiceHandleDirect
+00161d18 00000048 T srvGetServiceHandle
+00161d60 00000038 T srvPublishToSubscriber
+00161d98 0000023c t _gdbHioSendSyncRequest64V
+00161fd4 0000002c t _gdbHioSendSyncRequest
+00162000 00000120 t _gdbHioImportStructStat
+00162120 00000038 t _gdbHioSendSyncRequest64.constprop.0
+00162158 00000074 T gdbHioOpen
+001621cc 00000018 T gdbHioClose
+001621e4 00000038 T gdbHioRead
+0016221c 00000038 T gdbHioWrite
+00162254 0000004c T gdbHioLseek
+001622a0 0000001c T gdbHioRename
+001622bc 00000018 T gdbHioUnlink
+001622d4 00000044 T gdbHioStat
+00162318 00000044 T gdbHioFstat
+0016235c 00000188 T threadCreate
+001624e4 0000002c T threadFree
+00162510 00000024 T threadJoin
+00162534 00000030 T threadGetCurrent
+00162564 00000040 T threadExit
+001625a4 00000044 t _thread_begin
+001625e8 00000094 t mappableFindAddressWithin
+0016267c 00000028 T mappableInit
+001626a4 00000080 T mappableAlloc
+00162724 00000004 T mappableFree
+00162728 00000160 T irrstInit
+00162888 000000cc T irrstExit
+00162954 000000b0 T irrstScanInput
+00162a04 00000024 T irrstKeysHeld
+00162a28 0000000c T srvPmGetSessionHandle
+00162a34 00000050 T rbtree_node_next
+00162a84 00000030 W __appInit
+00162ab4 00000030 t __libctru_nanosleep
+00162ae4 00000030 t __libctru_get_reent
+00162b14 000000f8 T __system_initSyscalls
+00162c0c 00000030 W __appExit
+00162c3c 00000090 W __libctru_exit
+00162ccc T __aeabi_read_tp
+00162cd8 00000084 W envGetHandle
+00162d5c 00000050 W envDestroyHandles
+00162dac 00000014 t archive_link
+00162dc0 00000014 t archive_dirreset
+00162dd4 00000014 t archive_chmod
+00162de8 00000024 t error_cmp
+00162e0c 00000050 t archive_translate_error
+00162e5c 000000d4 t archive_seek
+00162f30 0000007c t _archiveInit.part.0
+00162fac 0000008c t archiveFindDevice.part.0
+00163038 00000294 t archive_utf16path
+001632cc 000000a0 t _archiveUnmountDeviceStruct.part.0
+0016336c 00000014 t archive_fchmod
+00163380 00000014 t archive_statvfs
+00163394 00000158 t _archiveMountDevice
+001634ec 000000e8 t archive_diropen
+001635d4 000000a4 t archive_fstat
+00163678 0000006c t archive_close
+001636e4 0000006c t archive_fsync
+00163750 00000070 t archive_dirclose
+001637c0 000000e8 t sdmc_statvfs
+001638a8 00000080 t archive_ftruncate
+00163928 000000fc t archive_chdir
+00163a24 000000b0 t archive_read
+00163ad4 000000ac t archive_unlink
+00163b80 000000c8 t archive_rmdir
+00163c48 000000ec t archive_mkdir
+00163d34 000001a8 t archive_stat
+00163edc 00000184 t archive_rename
+00164060 00000168 t archive_dirnext
+001641c8 0000012c t archive_write
+001642f4 000001f0 t archive_open
+001644e4 000001a4 T archiveMountSdmc
+00164688 00000054 T archiveUnmountAll
+001646dc 000000c8 T fsInit
+001647a4 0000003c T fsExit
+001647e0 00000060 T fsExemptFromSession
+00164840 00000050 T fsUnexemptFromSession
+00164890 000000cc T FSUSER_OpenFile
+0016495c 000000bc T FSUSER_DeleteFile
+00164a18 000000f8 T FSUSER_RenameFile
+00164b10 000000bc T FSUSER_DeleteDirectory
+00164bcc 000000d4 T FSUSER_CreateFile
+00164ca0 000000c4 T FSUSER_CreateDirectory
+00164d64 000000f8 T FSUSER_RenameDirectory
+00164e5c 000000b4 T FSUSER_OpenDirectory
+00164f10 00000094 T FSUSER_OpenArchive
+00164fa4 0000008c T FSUSER_CloseArchive
+00165030 00000074 T FSUSER_GetSdmcArchiveResource
+001650a4 00000064 T FSUSER_IsSdmcWritable
+00165108 00000058 T FSFILE_Read
+00165160 00000060 T FSFILE_Write
+001651c0 00000038 T FSFILE_GetSize
+001651f8 00000028 T FSFILE_SetSize
+00165220 0000003c T FSFILE_Close
+0016525c 00000024 T FSFILE_Flush
+00165280 00000050 T FSDIR_Read
+001652d0 0000003c T FSDIR_Close
+0016530c 000000e8 T utf16_to_utf8
+001653f4 00000064 T decode_utf16
+00165458 0000013c T decode_utf8
+00165594 000000c0 T utf8_to_utf16
+00165654 00000060 T encode_utf16
+001656b4 000000fc T encode_utf8
+001657b0 00000004 T operator delete(void*)
+001657b4 00000060 T __cxa_guard_acquire
+00165814 0000000c T __cxa_guard_release
+00165820 00000020 T __gnu_cxx::recursive_init_error::~recursive_init_error()
+00165820 00000020 T __gnu_cxx::recursive_init_error::~recursive_init_error()
+00165840 0000002c T __gnu_cxx::recursive_init_error::~recursive_init_error()
+0016586c 00000010 T __gnu_cxx::recursive_init_error::recursive_init_error()
+0016586c 00000010 T __gnu_cxx::recursive_init_error::recursive_init_error()
+0016587c 00000020 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0016587c 00000020 T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+0016589c 0000002c T __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+001658c8 0000006c T __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+00165934 000000dc T __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+00165a10 00000044 T __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+00165a54 00000004 T std::type_info::~type_info()
+00165a54 00000004 T std::type_info::~type_info()
+00165a58 00000008 T std::type_info::__is_pointer_p() const
+00165a58 00000008 T std::type_info::__is_function_p() const
+00165a60 0000004c T std::type_info::operator==(std::type_info const&) const
+00165aac 0000005c T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+00165b08 00000014 T __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+00165b1c 00000020 T __cxxabiv1::__class_type_info::~__class_type_info()
+00165b1c 00000020 T __cxxabiv1::__class_type_info::~__class_type_info()
+00165b3c 0000002c T __cxxabiv1::__class_type_info::~__class_type_info()
+00165b68 00000068 T __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+00165bd0 0000002c T __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+00165bfc 00000044 T __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+00165c40 00000004 T operator delete(void*, unsigned int)
+00165c44 000000d0 t (anonymous namespace)::pool::free(void*) [clone .constprop.0]
+00165d14 0000009c t (anonymous namespace)::pool::allocate(unsigned int) [clone .constprop.0]
+00165db0 00000044 T __cxa_allocate_exception
+00165df4 00000030 T __cxa_free_exception
+00165e24 00000040 t _GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
+00165e64 T __cxa_end_cleanup
+00165e74 00000138 T __cxa_type_match
+00165fac 000000b4 T __cxa_begin_cleanup
+00166060 000000b4 T __gnu_end_cleanup
+00166114 00000004 T std::exception::~exception()
+00166114 00000004 T std::exception::~exception()
+00166118 00000004 T std::bad_exception::~bad_exception()
+00166118 00000004 T std::bad_exception::~bad_exception()
+0016611c 0000000c T transaction clone for std::exception::what() const
+0016611c 0000000c T std::exception::what() const
+00166128 0000000c T transaction clone for std::bad_exception::what() const
+00166128 0000000c T std::bad_exception::what() const
+00166134 00000018 T std::bad_exception::~bad_exception()
+0016614c 0000000c T __cxa_get_globals_fast
+00166158 0000000c T __cxa_get_globals
+00166164 00000168 t read_encoded_value_with_base(unsigned char, unsigned int, unsigned char const*, unsigned int*)
+001662cc 00000064 t base_of_encoded_value(unsigned char, _Unwind_Context*)
+00166330 000000d8 t parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
+00166408 000006f8 T __gxx_personality_v0
+00166b00 00000038 T __cxxabiv1::__terminate(void (*)())
+00166b38 00000018 T std::terminate()
+00166b50 0000000c T __cxxabiv1::__unexpected(void (*)())
+00166b5c 00000018 T std::unexpected()
+00166b74 00000014 T std::get_terminate()
+00166b88 00000014 T std::get_unexpected()
+00166b9c 00000070 t __gxx_exception_cleanup(_Unwind_Reason_Code, _Unwind_Control_Block*)
+00166c0c 00000070 T __cxa_init_primary_exception
+00166c7c 00000058 T __cxa_throw
+00166cd4 000000b0 T __cxa_rethrow
+00166d84 00000070 t __cxxabiv1::__is_gxx_exception_class(char*)
+00166df4 0000002c T __cxa_call_terminate
+00166e20 00000154 T __cxa_call_unexpected
+00166f74 000000cc T __cxa_begin_catch
+00167040 000000e0 T __cxa_end_catch
+00167120 0000022c T cosf
+0016734c 00000024 t with_errnof
+00167370 00000018 t xflowf
+00167388 0000000c T __math_uflowf
+00167394 0000000c T __math_may_uflowf
+001673a0 0000000c T __math_oflowf
+001673ac 00000030 T __math_divzerof
+001673dc 0000001c T __math_invalidf
+001673f8 000001f4 T atanf
+001675ec 000000b4 T ceilf
+001676a0 00000120 T expf
+001677c0 00000010 T fabsf
+001677d0 000000b4 T floorf
+00167884 00000050 T fmaxf
+001678d4 0000005c T __fpclassifyf
+00167930 000003ec T powf
+00167d1c 00000070 T tanf
+00167d90 00000274 T sinf
+00168004 0000008c T acosf
+00168090 0000007c T fmodf
+0016810c 00000070 T sqrtf
+0016817c 00000254 T __ieee754_acosf
+001683d0 000001a4 T __ieee754_fmodf
+00168574 000002f0 T __ieee754_rem_pio2f
+00168864 00000008 T __ieee754_sqrtf
+0016886c 00000868 T __kernel_rem_pio2f
+001690d4 00000208 T __kernel_tanf
+001692dc 0000000c T nanf
+001692e8 00000154 T scalbnf
+0016943c 00000120 T __udivmoddi4
+0016955c 00000018 t selfrel_offset31
+00169574 00000090 t search_EIT_table
+00169604 00000040 t __gnu_unwind_get_pr_addr
+00169644 00000118 t get_eit_entry
+0016975c 00000088 t restore_non_core_regs
+001697e4 00000014 t _Unwind_decode_typeinfo_ptr.constprop.0
+001697f8 00000004 t _Unwind_DebugHook
+001697fc 00000064 t unwind_phase2
+00169860 00000134 t unwind_phase2_forced
+00169994 000000a4 T __gnu_Unwind_RaiseException
+00169a38 00000028 T __gnu_Unwind_ForcedUnwind
+00169a60 00000074 T __gnu_Unwind_Resume
+00169ad4 00000020 T __gnu_Unwind_Resume_or_Rethrow
+00169af4 00000004 T _Unwind_Complete
+00169af8 00000018 T _Unwind_DeleteException
+00169b10 0000005c T _Unwind_VRS_Get
+00169b6c 0000002c t _Unwind_GetGR
+00169b98 0000005c T _Unwind_VRS_Set
+00169bf4 0000002c t _Unwind_SetGR
+00169c20 000000c0 T __gnu_Unwind_Backtrace
+00169ce0 00000420 t __gnu_unwind_pr_common
+0016a100 00000008 T __aeabi_unwind_cpp_pr0
+0016a108 00000008 W __aeabi_unwind_cpp_pr1
+0016a110 00000008 W __aeabi_unwind_cpp_pr2
+0016a118 000003d8 T _Unwind_VRS_Pop
+0016a4f0 00000064 t next_unwind_byte
+0016a554 0000002c t _Unwind_GetGR.constprop.0
+0016a580 00000004 t unwind_UCB_from_context
+0016a584 00000424 T __gnu_unwind_execute
+0016a9a8 00000048 T __gnu_unwind_frame
+0016a9f0 00000010 T _Unwind_GetRegionStart
+0016aa00 0000001c T _Unwind_GetLanguageSpecificData
+0016aa1c 00000008 T _Unwind_GetDataRelBase
+0016aa24 00000008 T _Unwind_GetTextRelBase
+0016aa2c 00000014 T abort
+0016aa40 0000005c T __assert_func
+0016aa9c 00000078 T bsearch
+0016ab14 00000028 T calloc
+0016ab3c 00000094 T _calloc_r
+0016abd0 0000000c T __errno
+0016abdc 00000034 T exit
+0016ac10 00000160 T _fclose_r
+0016ad70 00000020 T fclose
+0016ad90 00000088 T feof
+0016ae18 00000258 T __sflush_r
+0016b070 00000094 T _fflush_r
+0016b104 00000038 T fflush
+0016b13c 0000000c T _cleanup_r
+0016b148 00000184 T __sinit
+0016b2cc 00000134 T __sfp
+0016b400 0000000c T __sfp_lock_acquire
+0016b40c 0000000c T __sfp_lock_release
+0016b418 0000003c T __libc_fini_array
+0016b454 0000003c T fiprintf
+0016b490 00000140 T _fopen_r
+0016b5d0 00000028 T fopen
+0016b5f8 0000003c T fprintf
+0016b634 000002d0 T _fread_r
+0016b904 00000038 T fread
+0016b93c 000000f8 T _malloc_trim_r
+0016ba34 000002e4 T _free_r
+0016bd18 0000001c T _fseek_r
+0016bd34 00000034 T fseek
+0016bd68 000004f8 T _fseeko_r
+0016c260 00000034 T ftell
+0016c294 000001bc T _ftello_r
+0016c450 00000068 T _fwalk
+0016c4b8 00000070 T _fwalk_reent
+0016c528 000000f8 T _fwrite_r
+0016c620 00000038 T fwrite
+0016c658 0000007c T __libc_init_array
+0016c6d4 00000018 T isprint
+0016c6ec 00000138 T __smakebuf_r
+0016c824 00000028 T memalign
+0016c84c 00000148 T _memalign_r
+0016c994 00000020 T malloc
+0016c9b4 00000020 T free
+0016c9d4 000007f0 T _malloc_r
+0016d1c4 000000e0 T memchr
+0016d2a4 000000a8 T memcmp
+0016d34c 0000011c T memcpy
+0016d468 00000154 T memmove
+0016d5bc 00000118 T memset
+0016d6d4 0000000c T __malloc_lock
+0016d6e0 0000000c T __malloc_unlock
+0016d6ec 00000034 T printf
+0016d720 000000e0 T _puts_r
+0016d800 00000020 T puts
+0016d820 00000958 T qsort
+0016e178 00000028 T realloc
+0016e1a0 00000598 T _realloc_r
+0016e738 0000001c t lflush
+0016e754 000001ac T __srefill_r
+0016e900 00000098 T _raise_r
+0016e998 00000020 T raise
+0016e9b8 00000064 T sprintf
+0016ea1c 00000074 T sscanf
+0016ea90 00000044 T __sread
+0016ead4 00000008 T __seofread
+0016eadc 00000068 T __swrite
+0016eb44 00000048 T __sseek
+0016eb8c 00000008 T __sclose
+0016eb94 00000070 T stpcpy
+0016ec04 00000144 T strchr
+0016ed48 000000f0 T strcpy
+0016ee38 0000005c T strlen
+0016ee94 000000ec T strncat
+0016ef80 000000dc T strncmp
+0016f05c 000000c0 T strncpy
+0016f11c 00000048 T strnlen
+0016f164 00000428 t two_way_long_needle
+0016f58c 00000248 T strstr
+0016f7d4 00000034 T strtok
+0016f808 000000b4 T __strtok_r
+0016f8bc 000001c8 t _strtoul_l.constprop.0
+0016fa84 00000004 T _strtoul_r
+0016fa88 0000064c t get_arg
+001700d8 00003808 T _svfprintf_r
+001738e0 00000050 t get_arg
+00173930 00002b68 T __ssvfscanf_r
+00176498 00000020 T close
+001764b8 0000001c T tolower
+001764d4 0000064c t get_arg
+00176b20 00000034 T __sprint_r
+00176b54 00002584 T _vfiprintf_r
+001790d8 000000d4 t __sbprintf
+001791ac 0000064c t get_arg
+001797f8 000038d4 T _vfprintf_r
+0017d0cc 0000002c T vfprintf
+0017d0f8 000000d4 t __sbprintf
+0017d1cc 000000a4 T _vsnprintf_r
+0017d270 00000038 T vsnprintf
+0017d2a8 0000005c T vsprintf
+0017d304 00000054 T _wcrtomb_r
+0017d358 00000028 T _wcsrtombs_r
+0017d380 00000154 T __swsetup_r
+0017d4d4 00000114 T __call_exitprocs
+0017d5e8 000001a8 t quorem
+0017d790 000012ec T _dtoa_r
+0017ea7c 000000c8 T __sflags
+0017eb44 000004a4 T __sfvwrite_r
+0017efe8 00000008 T iswspace
+0017eff0 0000000c T _localeconv_r
+0017effc 00000010 T __locale_mb_cur_max
+0017f00c 00000068 T _mbrtowc_r
+0017f074 000002fc T __utf8_mbtowc
+0017f370 00000088 T _Balloc
+0017f3f8 0000001c T _Bfree
+0017f414 000000f4 T __multadd
+0017f508 00000110 T __s2b
+0017f618 00000058 T __hi0bits
+0017f670 0000009c T __lo0bits
+0017f70c 000000a4 T __i2b
+0017f7b0 00000204 T __multiply
+0017f9b4 00000120 T __pow5mult
+0017fad4 0000013c T __lshift
+0017fc10 00000058 T __mcmp
+0017fc68 000001cc T __mdiff
+0017fe34 00000088 T __ulp
+0017febc 000000d4 T __b2d
+0017ff90 0000012c T __d2b
+001800bc 00000078 T __ratio
+00180134 00000088 T __copybits
+001801bc 0000005c T __any_on
+00180218 000000e4 T __sccl
+00180300 000000a8 T frexp
+001803a8 000000b8 T stpncpy
+00180460 0000130c T _strtod_l
+0018176c 0000000c T _strtod_r
+00181778 0000022c t _strtoll_l.constprop.0
+001819a4 00000004 T _strtoll_r
+001819a8 000001b0 t _strtol_l.part.0
+00181b58 0000003c T _strtol_r
+00181b94 00000244 t _strtoull_l.constprop.0
+00181dd8 00000004 T _strtoull_r
+00181ddc 00000188 T __ssprint_r
+00181f64 000000e0 T _sungetc_r
+00182044 0000006c T __ssrefill_r
+001820b0 000000c8 T _sfread_r
+00182178 000000a8 T __submore
+00182220 00000190 T _wcsnrtombs_l
+001823b0 0000004c T _wcsnrtombs_r
+001823fc 000000f0 T __utf8_wctomb
+001824ec 000000ec t rshift
+001825d8 00000928 T __gethex
+00182f00 0000004c T __match
+00182f4c 0000029c T __hexnan
+001831e8 0000003c T iswspace_l
+00183224 000001d4 t __jp2uc
+001833f8 0000009c T _jp2uc_l
+00183498 00000010 T nan
+001834a8 00000084 T category
+0018352c 00000008 t null_write
+00183534 00000018 T setDefaultDevice
+0018354c 000000c8 T FindDevice
+00183614 00000028 T RemoveDevice
+0018363c 0000009c T AddDevice
+001836d8 00000020 T GetDeviceOpTab
+001836f8 00000078 T _fstat_r
+00183770 00000014 T _getpid_r
+00183784 00000008 T _isatty_r
+0018378c 00000014 T _kill_r
+001837a0 00000084 T _lseek_r
+00183824 000000c8 T _open_r
+001838ec 00000080 T _read_r
+0018396c 00000078 T _sbrk_r
+001839e4 00000080 T _write_r
+00183a64 00000024 T _exit
+00183a88 000001b8 T _concatenate_path
+00183c40 00000160 T chdir
+00183da0 00000008 T __flockfile
+00183da8 00000008 T __funlockfile
+00183db0 00000018 T __libc_lock_acquire
+00183dc8 00000018 T __libc_lock_release
+00183de0 00000018 T __libc_lock_init_recursive
+00183df8 00000018 T __libc_lock_acquire_recursive
+00183e10 00000018 T __libc_lock_release_recursive
+00183e28 00000018 T __libc_lock_close_recursive
+00183e40 0000008c T __release_handle
+00183ecc 000000b4 T __alloc_handle
+00183f80 0000003c T __get_handle
+00183fbc 0000013c T dup2
+001840f8 000000f4 T _close_r
+001841ec 00000068 t __dirnext
+00184254 000000f4 T opendir
+00184348 00000090 T closedir
+001843d8 000000b8 T readdir
+00184490 00000028 T __getreent
+001844b8 00000038 T __aeabi_d2lz
+001844b8 00000038 T __fixdfdi
+001844f0 00000040 T __aeabi_d2ulz
+001844f0 00000040 T __fixunsdfdi
+00184530 00000044 T strrchr
+00184574 T _fini
+00185000 0000000c r rw::Geometry::streamRead(rw::Stream*)::reset
+0018500c 00000040 r rw::RawMatrix::setIdentity(rw::RawMatrix*)::identity
+0018504c 00000040 r rw::identMat
+0018508c 00000028 R vtable for rw::StreamMemory
+001850b4 00000028 R vtable for rw::StreamFile
+001850dc 00000038 r CSWTCH.20
+00185114 00000007 r rw::c3d::filterConvMap_NoMIP
+0018511c 00000005 r rw::c3d::addressConvMap
+00185124 0000000c r rw::c3d::blendMap
+00185130 00000009 r rw::c3d::stencilOpMap
+0018513c 00000009 r rw::c3d::stencilFuncMap
+00185148 00000003 r rw::c3d::alphaTestMap
+00185158 0000001c r rw::c3d::primTypeMap
+0018517c 00000080 r rg_etc1::g_etc1_inten_tables
+001851fc 00000004 r rg_etc1::g_etc1_to_selector_index
+00185200 00000084 r rg_etc1::g_color8_to_etc_block_config_0_255
+00185284 00000010 r rg_etc1::pack_etc1_block_solid_color(rg_etc1::etc1_block&, unsigned char const*)::s_next_comp
+00185284 00000010 r rg_etc1::pack_etc1_block_solid_color_constrained(rg_etc1::etc1_optimizer::results&, unsigned long, unsigned char const*, bool, rg_etc1::color_quad_u8 const*)::s_next_comp
+00185294 00000004 r rg_etc1::g_selector_index_to_etc1
+00185298 00000024 r rg_etc1::pack_etc1_block(void*, unsigned int const*, rg_etc1::etc1_pack_params&)::s_scan_delta_0_to_4
+001852bc 0000000c r rg_etc1::pack_etc1_block(void*, unsigned int const*, rg_etc1::etc1_pack_params&)::s_scan_delta_0_to_1
+001852c8 00000004 r rg_etc1::pack_etc1_block(void*, unsigned int const*, rg_etc1::etc1_pack_params&)::s_scan_delta_0
+001852cc 00000010 r rg_etc1::pack_etc1_block(void*, unsigned int const*, rg_etc1::etc1_pack_params&)::s_scan_delta_2_to_3
+001852dc 00000020 r rg_etc1::pack_etc1_block(void*, unsigned int const*, rg_etc1::etc1_pack_params&)::s_scan_delta_5_to_8
+001852fc 00000008 r rg_etc1::pack_etc1_block(void*, unsigned int const*, rg_etc1::etc1_pack_params&)::s_scan_delta_5_to_5
+00185304 000017d0 r rg_etc1::g_color8_to_etc_block_config_1_to_254
+00186ad4 00000030 r rw::c3d::swizzle_8x8(rw::c3d::Packet*, bool)::table
+00186b04 00000100 r rw::xbox::formatInfoRW
+00186c04 00000008 r rw::d3d9::_d3ddec_end
+00186c0c 00000100 r rw::d3d::formatInfoRW
+00186d0c 00000014 r rw::d3d::allocateDXT(rw::Raster*, long, long, long)::dxtMap
+00186d20 00000010 r rw::ps2::unpackSize(unsigned long)::size
+00186d30 00000010 r rw::ps2::attribSize(unsigned long)::size
+00186d40 00000074 r CSWTCH.319
+00186db4 00000074 r CSWTCH.320
+00186e28 00000080 r rw::ps2::rasterCreateTexture(rw::Raster*)::pageWidths
+00186ea8 00000080 r rw::ps2::rasterCreateTexture(rw::Raster*)::pageHeights
+00186f28 00000020 r rw::ps2::rasterCreateTexture(rw::Raster*)::blockOffset32_24_8
+00186f48 00000020 r rw::ps2::rasterCreateTexture(rw::Raster*)::blockOffset16_4
+00186f68 00000020 r rw::ps2::rasterCreateTexture(rw::Raster*)::blockOffset16S
+00186f88 00000032 r CSWTCH.296
+00186fbc 00000032 r CSWTCH.297
+00186ff0 00000032 r CSWTCH.298
+00187024 00000032 r CSWTCH.299
+00187058 00000020 r rw::ps2::blockmap_PSMCT32
+00187078 00000020 r rw::ps2::blockmap_PSMCT16
+00187098 00000020 r rw::ps2::blockmap_PSMCT16S
+001870b8 00000020 r rw::ps2::blockmaprev_PSMCT32
+001870d8 00000020 r rw::ps2::blockmaprev_PSMCT16
+001870f8 0000001c r ADAM7_DX
+00187114 0000001c r ADAM7_IX
+00187130 0000001c r ADAM7_DY
+0018714c 0000001c r ADAM7_IY
+00187168 00000074 r LENGTHBASE
+001871dc 00000078 r DISTANCEBASE
+00187254 00000078 r DISTANCEEXTRA
+001872cc 00000074 r LENGTHEXTRA
+00187340 0000004c r CLCL_ORDER
+0018738c 00000400 r lodepng_crc32_table
+0018778c 000001b4 r CSWTCH.688
+00187940 00000014 R lodepng_default_decompress_settings
+00187954 00000024 R lodepng_default_compress_settings
+00187978 00000006 r ImFontAtlas::GetGlyphRangesDefault()::ranges
+00187980 0000000e r ImFontAtlas::GetGlyphRangesKorean()::ranges
+00187990 00000016 r ImFontAtlas::GetGlyphRangesChinese()::ranges
+001879a8 00000010 r ImFontAtlas::GetGlyphRangesJapanese()::base_ranges
+001879b8 00000f34 r ImFontAtlas::GetGlyphRangesJapanese()::offsets_from_0x4E00
+001888ec 00000012 r ImFontAtlas::GetGlyphRangesCyrillic()::ranges
+00188900 0000000e r ImFontAtlas::GetGlyphRangesThai()::ranges
+00188910 0000097f r FONT_ATLAS_DEFAULT_TEX_DATA_PIXELS
+00189290 00002ecd r proggy_clean_ttf_compressed_data_base85
+0018c160 00000028 r GetMinimumStepAtDecimalPrecision(int)::min_steps
+0018c188 00000088 r GStyleVarInfo
+0018c210 000000ac r CSWTCH.2384
+0018c358 R default_shbin
+0018cb40 R default_shbin_end
+0018cb40 R default_shbin_size
+00190a10 00000004 V rg_etc1::etc1_optimizer::params::clear_optimizer_params()::s_default_scan_delta
+0019888c r .LC2
+001993d4 00000038 r CSWTCH.18
+0019940c 00000005 r colorFmtSizes
+00199414 00000004 r depthFmtSizes
+00199428 00000070 r g_gdbHioDevoptab
+001994bc 00000008 r morton_x.3
+001994c4 00000008 r morton_y.2
+001994cc 00000008 r s_sleepWakeEvents.4
+0019955c 0000005b r CSWTCH.3
+001995dc 00000070 r archive_devoptab
+0019964c 00000030 r error_table
+00199684 0000000c R typeinfo for __gnu_cxx::recursive_init_error
+00199690 00000023 R typeinfo name for __gnu_cxx::recursive_init_error
+001996b4 00000014 R vtable for __gnu_cxx::recursive_init_error
+001996c8 0000000c R typeinfo for __cxxabiv1::__si_class_type_info
+001996d4 00000025 R typeinfo name for __cxxabiv1::__si_class_type_info
+001996fc 0000002c R vtable for __cxxabiv1::__si_class_type_info
+00199728 00000008 R typeinfo for std::type_info
+00199730 0000000d R typeinfo name for std::type_info
+00199740 0000000c R typeinfo for __cxxabiv1::__class_type_info
+0019974c 00000022 R typeinfo name for __cxxabiv1::__class_type_info
+00199770 0000002c R vtable for __cxxabiv1::__class_type_info
+001997c0 00000008 R typeinfo for __cxxabiv1::__forced_unwind
+001997c8 00000008 R typeinfo for __cxxabiv1::__foreign_exception
+001997d0 0000000c R typeinfo for std::bad_exception
+001997dc 00000008 R typeinfo for std::exception
+001997e4 00000020 R typeinfo name for __cxxabiv1::__forced_unwind
+00199804 00000024 R typeinfo name for __cxxabiv1::__foreign_exception
+00199828 00000012 R typeinfo name for std::bad_exception
+0019983c 0000000d R typeinfo name for std::exception
+0019984c 00000014 R vtable for std::bad_exception
+00199860 00000010 r atanhi
+00199870 00000010 r atanlo
+00199880 00000060 R __inv_pio4
+001998e0 000000e0 R __sincosf_table
+001999c0 00000008 r Zero
+001999c8 00000080 r npio2_hw
+00199a48 00000318 r two_over_pi
+00199d60 0000002c r PIo2
+00199d8c 0000000c r init_jk
+00199d98 00000148 R __exp2f_data
+00199ee0 00000128 R __powf_log2_data
+0019a048 00000004 R _global_impure_ptr
+0019a088 00000010 r blanks.1
+0019a098 00000010 r zeroes.0
+0019a0b0 00000022 r basefix.0
+0019a0d4 00000010 r blanks.1
+0019a0e4 00000010 r zeroes.0
+0019a0f4 00000010 r blanks.1
+0019a104 00000010 r zeroes.0
+0019a114 00000101 R _ctype_
+0019a300 00000028 R __mprec_bigtens
+0019a328 000000c8 R __mprec_tens
+0019a3f0 0000000c r p05.0
+0019a40c 00000014 r fpi.1
+0019a420 00000014 r fpinan.0
+0019a438 00000028 r tinytens
+0019a460 0000006c R __action_table
+0019a4cc 00000100 R __chclass
+0019a5cc 0000006c R __state_table
+0019a680 00000100 R __hexdig
+0019a794 000000bc r a1
+0019a850 000000bc r a2
+0019a90c 0000005b r a3
+0019a968 00000070 r a6
+0019a9d8 000000a2 r a7
+0019aa7c 00000040 r a8
+0019aabc 0000172a r b02cf
+0019c1e8 00001a7c r d02f4
+0019dc64 0000000c R _C_numeric_locale
+0019dc70 000031e6 r categories
+001a0e58 00000070 R dotab_stdnull
+001a0ec8 r 
+001a0f44 R __exidx_start
+001a10ac R __exidx_end
+001a2000 00000014 D rw::defaultMemfuncs
+001a2014 00000048 D rw::null::renderdevice
+001a205c 00000014 D rw::managedMemfuncs
+001a2070 0000000c d rw::uvAnimParamApplyCB(void*, void*)::xlat1
+001a207c 0000000c d rw::uvAnimParamApplyCB(void*, void*)::axis
+001a2088 0000000c d rw::uvAnimParamApplyCB(void*, void*)::xlat2
+001a2094 0000000c d rw::defaultSurfaceProps
+001a20a0 0000000c d rw::Geometry::streamWrite(rw::Stream*)::fbuf
+001a20ac 00000034 D rw::errstrs
+001a20e0 00000004 D rw::Texture::readCB
+001a20e4 00000004 D rw::Texture::findCB
+001a20e8 00000002 d rw::nextSerialNum
+001a20ec 0000000c d rw::matrixDefaultTolerance
+001a20f8 00000004 D rw::version
+001a20fc 00000004 D rw::build
+001a2100 00000004 D rw::platform
+001a2104 00000004 D rw::hAnimDoStream
+001a2108 00000040 d rw::c3d::normal2texcoord
+001a2148 00000004 d rw::c3d::sceneDirty
+001a214c 00000004 d rw::c3d::stateDirty
+001a2150 00000004 d rw::c3d::objectDirty
+001a2154 00000048 D rw::c3d::renderdevice
+001a219c 00000018 D rw::xbox::vertexFormatSizes
+001a21b4 00000018 D rw::xbox::v3dFormatMap
+001a21cc 00000018 D rw::xbox::v2dFormatMap
+001a21e4 000002c0 d rw::d3d::formatInfoFull
+001a24a4 00000004 D rw::d3d::isP8supported
+001a24a8 00000018 D rw::d3d::vertFormatMap
+001a24c0 00000008 D rw::ps2::attribXYZ
+001a24c8 00000008 D rw::ps2::attribUV
+001a24d0 00000008 D rw::ps2::attribRGBA
+001a24d8 00000008 D rw::ps2::attribNormal
+001a24e0 00000008 D rw::ps2::attribXYZW
+001a24e8 00000008 D rw::ps2::attribUV2
+001a24f0 00000008 D rw::ps2::attribWeights
+001a24f8 00000004 D rw::ps2::defaultMipMapKL
+001a24fc 00000004 D rw::ps2::cameraZDepth
+001a2500 00000004 D rw::ps2::cameraDepth
+001a2504 00000004 D rw::ps2::cameraFormat
+001a2508 00000004 D rw::ps2::maxMipLevels
+001a250c 00000004 D LODEPNG_VERSION_STRING
+001a2510 0000000c D Xaxis
+001a251c 0000000c D LightPos
+001a2528 00000004 D LightRadius
+001a252c 00000004 D LightConeAngle
+001a2530 0000000c D Yaxis
+001a253c 00000004 D FOV
+001a2540 00000001 d Gui()::showLightWindow
+001a2544 00000004 D LightAngleX
+001a2548 0000000c D Zaxis
+001a2554 0000000c D ClumpPos
+001a2560 00000050 D gKeyMap
+001a25b0 00000004 D GImGui
+001a25b4 00000001 d ImGui::ShowMetricsWindow(bool*)::show_clip_rects
+001a25b8 00000004 V rw::c3d::setMaterial(unsigned long, rw::RGBA const&, rw::SurfaceProperties const&, float)::white
+001a25bc 00000004 d framerate
+001a25c0 00000008 d framerateCounter
+001a25c8 00000004 d g_gdbHioStderrFd
+001a25cc 00000004 d g_gdbHioStdinFd
+001a25d0 00000004 d g_gdbHioStdoutFd
+001a25d4 00000004 d queueLock
+001a25d8 00000004 d kCount
+001a25dc 00000004 d kDelay
+001a25e0 00000004 d kInterval
+001a25e4 W __stacksize__
+001a25e8 00000004 D __cxxabiv1::__unexpected_handler
+001a25ec 00000004 D __cxxabiv1::__terminate_handler
+001a25f0 00000001 D __fdlib_version
+001a25f4 0000000c d __sfp_recursive_mutex
+001a2600 0000000c d __sinit_recursive_mutex
+001a260c 00000004 D _impure_ptr
+001a2610 00000460 d impure_data
+001a2a70 00000408 D __malloc_av_
+001a2e78 00000004 D __malloc_sbrk_base
+001a2e7c 00000004 D __malloc_trim_threshold
+001a2e80 0000000c d __malloc_recursive_mutex
+001a2e8c 0000000c D __atexit_recursive_mutex
+001a2e98 0000016c D __global_locale
+001a3004 00000002 d numempty
+001a3008 00000004 d defaultDevice
+001a300c 0000008c D devoptab_list
+001a3098 00000400 d _current_working_directory
+001a3498 00000004 d __hndl_lock
+001a349c 0000000c d __stderr_handle
+001a34a8 0000000c d __stdin_handle
+001a34b4 0000000c d __stdout_handle
+001a34c0 00001000 d handles
+001a44c8 d _GLOBAL_OFFSET_TABLE_
+001a44d4 d __frame_dummy_init_array_entry
+001a44d4 D __init_array_start
+001a44d4 B __preinit_array_end
+001a44d4 B __preinit_array_start
+001a44d4 D __tdata_lma
+001a44d4 D __tdata_lma_end
+001a4508 d __do_global_dtors_aux_fini_array_entry
+001a4508 D __fini_array_start
+001a4508 D __init_array_end
+001a4510 D __bss_start__
+001a4510 D __fini_array_end
+001a4510 00000004 B rw::totalMemoryAllocated
+001a4514 00000004 B rw::allocLocation
+001a4518 00000008 B rw::allocations
+001a4520 00000014 B rw::Engine::memfuncs
+001a4534 00000004 B rw::engine
+001a4538 00000001 B rw::Engine::state
+001a453c 000000e0 B rw::Driver::s_plglist
+001a461c 00000010 B rw::Engine::s_plglist
+001a462c 00000004 B rw::imageModuleOffset
+001a4630 00000004 B rw::Image::numAllocated
+001a4634 00000004 B rw::rasterModuleOffset
+001a4638 00000004 B rw::Raster::numAllocated
+001a463c 00000028 b rw::interpInfoList
+001a4664 00000004 B rw::currentUVAnimDictionary
+001a4668 00000004 B rw::uvAnimOffset
+001a466c 00000008 b rw::materialRights
+001a4674 00000010 B rw::Material::s_plglist
+001a4684 00000004 B rw::Material::numAllocated
+001a4688 00000010 B rw::Geometry::s_plglist
+001a4698 00000004 B rw::Geometry::numAllocated
+001a469c 00000010 B rw::Frame::s_plglist
+001a46ac 00000004 B rw::Frame::numAllocated
+001a46b0 00000008 b rw::error
+001a46b8 00000200 b rw::dbgsprint(unsigned long, ...)::strbuf
+001a48b8 00000004 B rw::anisotOffset
+001a48bc 00000010 B rw::Texture::s_plglist
+001a48cc 00000004 B rw::Texture::numAllocated
+001a48d0 00000004 B rw::textureModuleOffset
+001a48d4 00000010 B rw::TexDictionary::s_plglist
+001a48e4 00000004 B rw::TexDictionary::numAllocated
+001a48e8 00000010 B rw::Raster::s_plglist
+001a48f8 00000008 b rw::allPlugins
+001a4900 00000010 B rw::World::s_plglist
+001a4910 00000004 B rw::World::numAllocated
+001a4914 00000010 B rw::Light::s_plglist
+001a4924 00000004 B rw::Light::numAllocated
+001a4928 00000044 B rw::matFXGlobals
+001a496c 00000004 B rw::MatFX::modulateEnvMap
+001a4970 00000018 B rw::userDataGlobals
+001a4988 00000004 B rw::debugFile
+001a498c 00000004 B rw::streamAppendFrames
+001a4990 00000044 B rw::skinGlobals
+001a49d4 00000010 B rw::Camera::s_plglist
+001a49e4 00000004 B rw::Camera::numAllocated
+001a49e8 00000004 B rw::hAnimOffset
+001a49ec 00000008 b rw::atomicRights
+001a49f4 00000010 B rw::Clump::s_plglist
+001a4a04 00000004 B rw::Clump::numAllocated
+001a4a08 00000010 B rw::Atomic::s_plglist
+001a4a18 00000004 B rw::Atomic::numAllocated
+001a4a1c 00000004 B rw::c3d::nativeRasterOffset
+001a4a20 00001000 b rw::c3d::boneMatrices
+001a5a20 00000004 b rw::c3d::gTexPool
+001a5a24 00000004 b rw::c3d::envShader
+001a5a28 00000040 b rw::c3d::uploadEnvMatrix(rw::Frame*)::envMtx
+001a5a68 00000070 b rw::c3d::rwStateCache
+001a5ad8 00000030 B rw::c3d::c3dGlobals
+001a5b08 00000080 b rw::c3d::uniformScene
+001a5b88 00000050 b rw::c3d::curC3DState
+001a5bd8 00000018 B rw::c3d::whitetex
+001a5bf0 00000004 B rw::c3d::linearScratch
+001a5bf4 00000050 b rw::c3d::oldC3DState
+001a5c44 00000254 b rw::c3d::uniformObject
+001a5e98 00000004 B rw::c3d::defaultShader
+001a5e9c 00000014 b rw::c3d::materialState
+001a5eb0 00000200 b rw::c3d::fogState
+001a60b0 00000004 B rw::c3d::Shader::dvlb
+001a60b4 00000004 B rw::c3d::currentShader
+001a60b8 00000004 b rw::c3d::im2dShader
+001a60c0 00000018 b rw::c3d::im2DVao
+001a60d8 00000004 B rw::c3d::forceTiltOff
+001a60dc 00000800 b rw::c3d::tmpIndex
+001a68dc 00000004 B rw::c3d::im2dOverrideShader
+001a68e0 00000054 b rw::c3d::tmpprimbuf
+001a6934 00000004 b rw::c3d::im3dShader
+001a6938 00000018 b rw::c3d::im3DVao
+001a6950 00000040 b rw::c3d::im3DTransform(void*, long, rw::Matrix*, unsigned long)::ident
+001a6990 00000004 b rw::c3d::im3D_vtx
+001a6994 00000004 b rw::c3d::im3D_vtx_count
+001a6998 00000001 b rw::c3d::etc1_common(unsigned char*, unsigned char**, int, bool)::ready
+001a699c 00000110 b rg_etc1::g_quant5_tab
+001a6aac 00008000 b rg_etc1::g_etc1_inverse_lookup
+001aeaac 00000004 b rw::xbox::vertexFmtOffset
+001aeab0 00000004 B rw::xbox::nativeRasterOffset
+001aeab4 00000010 b rw::d3d::findFormatInfoD3D(unsigned long)::fake
+001aeac4 00000004 B rw::d3d::nativeRasterOffset
+001aeac8 00000004 B rw::gl3::needToReadBackTextures
+001aeacc 00000010 B rw::gl3::gl3Caps
+001aeadc 00000004 B rw::gl3::nativeRasterOffset
+001aeae0 00000001 b rw::ps2::sendVIF(unsigned long)::state
+001aeae4 00000004 b rw::ps2::sendVIF(unsigned long)::n
+001aeae8 00000004 b rw::ps2::sendVIF(unsigned long)::code
+001aeaec 00000004 B rw::ps2::defaultMatPipe
+001aeaf0 00000004 B rw::ps2::adcOffset
+001aeaf4 00000004 B rw::ps2::defaultObjPipe
+001aeaf8 00000004 B rw::ps2::markcnt
+001aeafc 00000004 B rw::ps2::nativeRasterOffset
+001aeb00 00000004 b rw::ps2::noNewStyleRasters
+001aeb04 0000000c b rw::ps2::pdsGlobals
+001aeb10 0000000c B Scene
+001aeb1c 00000004 B BaseAmbientLight
+001aeb20 00000004 B AmbientLight
+001aeb24 00000004 B DirectLight
+001aeb28 00000004 B PointLight
+001aeb2c 00000004 B SpotLight
+001aeb30 00000004 B SpotSoftLight
+001aeb34 00000004 B CurrentLight
+001aeb38 00000004 b Gui()::lightswitch
+001aeb3c 00000004 B LightAngleY
+001aeb40 00000004 B LightAngleZ
+001aeb44 0000000c B CameraPos
+001aeb50 00000004 b guard variable for Draw(float)::clear_color
+001aeb54 00000010 b Draw(float)::clear_color
+001aeb64 00000001 B BaseAmbientLightOn
+001aeb68 00000014 B engineOpenParams
+001aeb7c 0000000c B zero
+001aeb88 00000010 B sk::globals
+001aeb98 00000008 B sk::args
+001aeba0 00000004 b g_FontTexture
+001aeba4 00000004 b g_vertbuf
+001aeba8 00000004 b g_vertbufSize
+001aebac 00000004 b stb__dout
+001aebb0 00000004 b stb__barrier
+001aebb4 00000004 b stb__barrier2
+001aebb8 00000004 b stb__barrier4
+001aebbc 00000001 b ImFontAtlas::GetGlyphRangesJapanese()::full_ranges_unpacked
+001aebc0 000000a8 b FONT_ATLAS_DEFAULT_TEX_CURSOR_DATA
+001aec68 00001e7a b ImFontAtlas::GetGlyphRangesJapanese()::full_ranges
+001b0ae4 000003d8 b ImGuizmo::gContext
+001b0ebc 00000030 b ImGuizmo::directionUnary
+001b0eec 0000004c b GImDefaultFontAtlas
+001b0f38 00000400 b ImHash(void const*, int, unsigned int)::crc32_lut
+001b1338 00000060 b resize_grip_def
+001b1398 000036fc b GImDefaultContext
+001b4a94 b completed.1
+001b4a98 b object.0
+001b4ab0 000002d0 B __C3D_Context
+001b4d80 0000000c b hookCookie
+001b4d90 00000010 b cpuTime
+001b4da0 00000008 b frameCounter
+001b4da8 00000004 b frameEndCb
+001b4dac 00000004 b frameEndCbData
+001b4db0 00000010 b gpuTime
+001b4dc0 00000001 b inFrame
+001b4dc1 00000001 b inSafeTransfer
+001b4dc2 00000001 b isTopStereo
+001b4dc4 0000000c b linkedTarget
+001b4dd0 00000001 b measureGpuTime
+001b4dd1 00000001 b needSwapBot
+001b4dd2 00000001 b needSwapTop
+001b4dd4 00000004 B C3D_BoolUnifs
+001b4dd8 00000002 B C3D_BoolUnifsDirty
+001b4ddc 00000c00 B C3D_FVUnif
+001b59dc 000000c0 B C3D_FVUnifDirty
+001b5a9c 00000020 B C3D_IVUnif
+001b5abc 00000008 B C3D_IVUnifDirty
+001b5ac4 000000c0 b C3Di_FVUnifEverDirty
+001b5b84 00000008 b C3Di_IVUnifEverDirty
+001b5b8c 00000018 b C3Di_ShaderFVecData
+001b5ba4 0000000c b sAddrMap
+001b5bb0 00000008 b sVramPool
+001b5bb8 00000008 b sLinearPool
+001b5bc0 0000000c b sAddrMap
+001b5bcc 00000001 V __ctru_speedup
+001b5bd0 00000004 b gfxBottomFramebufferMaxSize
+001b5bd4 00000008 b gfxBottomFramebuffers
+001b5bdc 00000002 b gfxCurBuf
+001b5be0 00000002 b gfxFramebufferFormats
+001b5be4 00000002 b gfxIsDoubleBuf
+001b5be6 00000001 b gfxIsVram
+001b5be8 00000004 b gfxTopFramebufferMaxSize
+001b5bec 00000008 b gfxTopFramebuffers
+001b5bf4 00000001 b gfxTopMode
+001b5bf8 00000004 b screenAlloc
+001b5bfc 00000004 b screenFree
+001b5c00 00000004 b boundQueue
+001b5c04 00000004 b curQueue
+001b5c08 00000001 b isActive
+001b5c09 00000001 b isRunning
+001b5c0a 00000001 b shouldStop
+001b5c0c 00000004 B gpuCmdBuf
+001b5c10 00000004 B gpuCmdBufOffset
+001b5c14 00000004 B gpuCmdBufSize
+001b5c18 00000004 b gspEvent
+001b5c1c 0000001c b gspEventCb
+001b5c38 0000001c b gspEventCbData
+001b5c54 00000007 b gspEventCbOneShot
+001b5c5c 00000004 b gspEventThread
+001b5c60 00000038 b gspEvents
+001b5c98 00000004 b gspGpuHandle
+001b5c9c 00000001 b gspGpuRight
+001b5ca0 00000004 b gspLastEvent
+001b5ca4 00000004 b gspRefCount
+001b5ca8 00000001 b gspRunEvents
+001b5cac 00000004 b gspSharedMem
+001b5cb0 00000004 b gspSharedMemHandle
+001b5cb4 00000001 b gspThreadId
+001b5cb5 00000001 b aptChainloadFlags
+001b5cb6 00000001 b aptChainloadMediatype
+001b5cb8 00000008 b aptChainloadTid
+001b5cc0 00000004 b aptEventHandlerThread
+001b5cc4 00000001 b aptEventHandlerThreadQuit
+001b5cc8 00000008 b aptEvents
+001b5cd0 0000000c b aptFirstHook
+001b5cdc 00000004 b aptFlags
+001b5ce0 00000001 b aptHomeButtonState
+001b5ce4 00000004 b aptLockHandle
+001b5ce8 00000004 b aptMessageFunc
+001b5cec 00000004 b aptMessageFuncData
+001b5cf0 00001000 b aptParameters
+001b6cf0 00000008 b aptReceiveEvent
+001b6cf8 00000004 b aptRefCount
+001b6cfc 00000008 b aptSleepEvent
+001b6d04 00000001 b flagInit.1
+001b6d05 00000001 b flagValue.0
+001b6d08 00000004 b serviceName.6
+001b6d0c 00000006 b aVec
+001b6d14 00000004 b cPos
+001b6d18 00000006 b gRate
+001b6d20 00000014 B hidEvents
+001b6d34 00000004 B hidHandle
+001b6d38 00000004 B hidMemHandle
+001b6d3c 00000004 b hidRefCount
+001b6d40 00000004 B hidSharedMem
+001b6d44 00000004 b kDown
+001b6d48 00000004 b kHeld
+001b6d4c 00000004 b kOld
+001b6d50 00000004 b kRepeat
+001b6d54 00000004 b kUp
+001b6d58 00000004 b tPos
+001b6d5c 00000001 b usingIrrst
+001b6d60 00000004 b ptmSysmHandle
+001b6d64 00000004 b ptmSysmRefCount
+001b6d68 00000004 B __ctru_heap
+001b6d6c 00000004 V __ctru_heap_size
+001b6d70 00000004 B __ctru_linear_heap
+001b6d74 00000004 V __ctru_linear_heap_size
+001b6d78 00000004 B __system_retAddr
+001b6d7c 00000004 B __system_argc
+001b6d80 00000004 B __system_argv
+001b6d84 b saved_stack
+001b6d8c 00000004 b arbiter
+001b6d90 00000004 b srvHandle
+001b6d94 00000004 b srvRefCount
+001b6d98 00000004 b currentAddr
+001b6d9c 00000004 b maxAddr
+001b6da0 00000004 b minAddr
+001b6da4 00000004 b csPos
+001b6da8 00000004 B irrstEvent
+001b6dac 00000004 B irrstHandle
+001b6db0 00000004 B irrstMemHandle
+001b6db4 00000004 b irrstRefCount
+001b6db8 00000004 B irrstSharedMem
+001b6dbc 00000004 b kHeld
+001b6dc0 00000004 b srvPmHandle
+001b6dc4 00000004 b archive_device_cwd
+001b6dc8 00000540 b archive_devices
+001b7308 00000001 b archive_initialized
+001b7310 00000080 b fsExemptArchives
+001b7390 00000004 b fsuHandle
+001b7394 00000004 b fsuRefCount
+001b7398 00000010 b (anonymous namespace)::emergency_pool
+001b73a8 0000000c b eh_globals
+001b73b4 00000028 B __malloc_current_mallinfo
+001b73dc 00000004 B __malloc_max_sbrked_mem
+001b73e0 00000004 B __malloc_max_total_mem
+001b73e4 00000004 B __malloc_top_pad
+001b73e8 00000004 b heap_start.0
+001b73ec 00000004 B fake_heap_end
+001b73f0 00000004 B fake_heap_start
+001b73f4 00000400 b temp_cwd
+001b77f4 00000048 B __syscalls
+001b783c B __tls_start
+001b8448 B __bss_end__
+001b8448 A __end__
+001b8448 B __tls_end

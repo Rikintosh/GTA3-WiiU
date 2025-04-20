@@ -1,0 +1,27 @@
+	;; uniforms
+.fvec u_xform
+
+	;; inputs
+.alias in_pos    v0
+.alias in_color  v1
+.alias in_tex0   v2
+
+	;; outputs
+.out v_pos	position
+.out v_color	color
+.out v_tex0	texcoord0
+
+.entry im2d_main
+.proc im2d_main
+	mov r0, in_pos
+	mov r1, in_pos
+	mov r2, u_xform
+	mad r0.xy, r1.xy, r2.xy, r2.zw
+
+	mul r0.xyz, r0.xyz, r0.www
+	
+	mov v_pos, r0.yxzw
+	mov v_color, in_color
+	mov v_tex0, in_tex0
+	end
+.end
